@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+# EASY-INSTALL-SCRIPT: 'zscroll==2.0.1','zscroll'
+__requires__ = 'zscroll==2.0.1'
+__import__('pkg_resources').run_script('zscroll==2.0.1', 'zscroll')
