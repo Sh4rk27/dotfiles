@@ -1,0 +1,75 @@
+#! /bin/sh
+
+# 1. Lanza sxhkd (limpio)
+killall -q sxhkd; sxhkd &
+
+# 2. Fondo y utilidades
+feh --bg-fill /home/darkness/Desktop/darkness/Images/Wallpaper.png &
+wname LG3D &
+killall -q udiskie
+udiskie -2 -n -t &
+
+# --- SECCIÓN DE INPUT Y MOUSEPAD ---
+xinput set-prop "SYNA8022:00 06CB:CE67 Touchpad" "libinput Tapping Enabled" 1 &
+xinput set-prop "SYNA8022:00 06CB:CE67 Touchpad" "libinput Natural Scrolling Enabled" 1 &
+xinput set-prop "SYNA8022:00 06CB:CE67 Touchpad" "libinput Accel Speed" 0.2 &
+
+libinput-gestures-setup stop
+libinput-gestures-setup start &
+
+# 3. Notificaciones y Composición
+killall -9 picom compton 2>/dev/null
+killall -q dunst; dunst &
+sleep 1
+picom --config ~/.config/picom/picom.conf --experimental-backends &
+
+# --- Autostart ---
+$HOME/.config/bspwm/scripts/monitor_setup.sh 
+# --- Fin de Autostart ---
+
+sleep 2
+
+# 4. Polybar
+killall -q polybar
+~/.config/polybar/launch.sh &
+
+# --- CONFIGURACIÓN DE BSPWM ---
+
+# Comportamiento del ratón y FOCO
+bspc config pointer_modifier          mod4
+bspc config focus_follows_pointer     true
+bspc config click_to_focus            button1
+
+# ESTA ES LA LÍNEA QUE FALTA PARA TRAER AL FRENTE (ELEVACIÓN)
+bspc config raise_on_click            true
+
+# Asignamos los escritorios a todos los monitores activos
+for m in $(bspc query -M); do
+    bspc monitor eDP-1 -d I II III IV V VI VII VIII IX X
+    bspc monitor HDMI-1 -d I II III IV V VI VII VIII IX X
+done
+
+# Estética y Layout
+bspc config border_width         2
+bspc config window_gap          12
+bspc config split_ratio         0.52
+bspc config ignore_size_hints   true
+
+# Colores de Bordes
+bspc config normal_border_color  "#4c566a"
+bspc config active_border_color  "#81a1c1"
+bspc config focused_border_color "#88c0d0"
+bspc config marked_node_color    "#ebcb8b"
+
+# Configuración de Comportamiento
+bspc config borderless_monocle   false
+bspc config gapless_monocle      false
+bspc config single_monocle       false
+
+# --- Reglas de Ventanas ---
+bspc rule -a Caja state=floating follow=on
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Screenkey manage=off
+bspc rule -a Flameshot state=floating border=off

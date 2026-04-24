@@ -1,0 +1,185 @@
+# .config/sxhkd/sxhkdrc
+# Archivo de configuración de atajos de teclado para Ricardo
+
+# --- EMULADOR DE TERMINAL ---
+super + Return
+        gnome-terminal
+        # Abre la terminal principal del sistema
+
+# --- LANZADOR DE PROGRAMAS ---
+super + d
+        rofi -show run
+        # Abre el menú Rofi para buscar y ejecutar aplicaciones
+
+# --- GESTIÓN DEL SISTEMA ---
+super + Escape
+        pkill -USR1 -x sxhkd
+        # Recarga este archivo para aplicar cambios sin cerrar sesión
+
+super + alt + q
+        bspc quit
+        # Cierra la sesión actual de bspwm (Log out)
+
+super + alt + r
+        bspc wm -r
+        # Reinicia el gestor de ventanas (Refresca bspwmrc)
+
+# Bloqueo de pantalla
+super + ctrl + alt + x
+	betterlockscreen -l blur -- --radius 90 --ind-pos="x+w/2:y+h/2" --inside-color 00000000 --ring-color 00ff0033 --keyhl-color 00ff00ff --bshl-color ff0000ff --separator-color 00000000 --verif-text="" --wrong-text="" --noinput-text=""
+
+# --- CONTROL DE VENTANAS (NODOS) ---
+super + w
+        bspc node -c
+        # Cierra la ventana actual de forma elegante
+
+super + shift + w
+        bspc node -k
+        # Fuerza el cierre de la ventana (Kill) si no responde
+
+super + m
+        bspc desktop -l next
+        # Alterna el diseño entre Mosaico y Monóculo (Ventana única)
+
+super + y
+	bspc node newest.marked -n newest.!automatic.local
+        # Teletransporta la ventana "amarilla" (marcada) al área preseleccionada
+
+super + g
+        bspc node -s biggest.local
+        # Intercambia la ventana actual con la más grande del mismo monitor
+
+# --- ESTADOS Y BANDERAS (Flags) ---
+super + {t,shift + t,s,f}
+        bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+        # Cambia el estado: mosaico, mosaico-especial, flotante o pantalla completa
+
+super + ctrl + m
+    bspc node -g marked
+    # MARCAR: Pinta el borde de amarillo para mover la ventana después
+
+super + ctrl + {x,y,z}
+    bspc node -g {locked,sticky,private}
+    # Bloquea (x), hace que flote en todo escritorio (y) o modo privado (z)
+
+# --- NAVEGACIÓN Y FOCO ---
+super + {Left,Down,Up,Right}
+       bspc node -f {west,south,north,east}
+       # Mueve el foco (la selección) hacia la dirección indicada
+
+super + shift + {Left,Down,Up,Right}
+       bspc node -s {west,south,north,east}
+       # INTERCAMBIO: Cambia de lugar la ventana actual con la vecina
+
+# --- VENTANAS FLOTANTES ---
+super + ctrl + {Left,Down,Up,Right}
+        bspc node -v {-20 0,0 20,0 -20,20 0}
+        # Desplaza las ventanas flotantes 20 píxeles con las flechas
+
+# --- PRESELECCIÓN (Layout manual) ---
+super + ctrl + alt + {Left,Down,Up,Right}
+	bspc node -p {west,south,north,east}
+        # Crea una zona naranja donde aterrizará la siguiente ventana
+
+super + ctrl + alt + space
+	bspc node -p cancel
+        # Cancela la zona de preselección activa
+
+# --- APLICACIONES PERSONALIZADAS ---
+super + shift + g
+        google-chrome
+        # Lanza Chrome
+
+super + shift + b
+        brave-browser
+        # Lanza Brave
+
+# --- ESCRITORIOS (Workspaces) ---
+super + {1-9,0}
+    bspc desktop -f '^{1-9,10}'
+    # Cambia al escritorio indicado (1 al 10)
+
+super + shift + {1-9,0}
+    bspc node -d '^{1-9,10}'
+    # Mueve la ventana seleccionada al escritorio indicado
+
+# --- UTILIDADES ---
+ctrl + f
+	QT_X11_NO_MITSHM=1 flameshot gui
+        # Herramienta de captura de pantalla
+
+# --- CONTROLES DE HARDWARE (Multimedia) ---
+shift + F1
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+shift + F2
+    pactl set-sink-volume @DEFAULT_SINK@ -5%
+shift + F3
+    pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+shift + F4
+    amixer -q sset Capture toggle && \
+    if amixer get Capture | grep -q '\[on\]'; then dunstify -u low "Micrófono: ACTIVADO" -i audio-input-microphone; else dunstify -u critical "Micrófono: MUTED" -i audio-input-microphone-muted; fi
+
+shift + F5
+    brightnessctl set 5%- && dunstify -u low "Brillo: $(brightnessctl get)" -i display-brightness
+shift + F6
+    brightnessctl set +5% && dunstify -u low "Brillo: $(brightnessctl get)" -i display-brightness
+
+shift + F8
+    rfkill list wifi | grep -q "yes" && (rfkill unblock all && dunstify -u low "Modo Avión" "DESACTIVADO - WiFi ON" -i network-wireless) || (rfkill block all && dunstify -u critical "Modo Avión" "ACTIVADO - WiFi OFF" -i network-wireless-offline)
+
+# --- SCRIPTS DE REDIMENSIÓN ---
+alt + super + {Left,Down,Up,Right}
+    /home/darkness/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
+    # Redimensiona ventanas en mosaico usando tu script
+
+# --- GESTIÓN DE MONITORES ---
+super + shift + m
+    bspc node -m next --follow
+    # Mueve la ventana al otro monitor (vMotion de ventanas)
+
+super + alt + m
+    for node in $(bspc query -N -m .!focused); do bspc node "$node" -d focused; done
+    # Trae todas las ventanas de los demás monitores al principal
+
+# --- ADICIONES ESTILO S4VITAR ---
+
+# Enfoque de nodo por jerarquía (Padre, Hermano, Primero, Segundo)
+super + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# Navegar por el historial de foco (Ventanas anteriores y nuevas)
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+# Saltar al escritorio anterior/siguiente rápidamente
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+# Enfocar el último nodo o escritorio visitado (Muy útil)
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+
+# Preselección del ratio (Definir tamaño de la zona naranja)
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# Cancelar todas las zonas de preselección en el escritorio actual
+super + ctrl + alt + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+# --- TRUCO PARA EL CLIC (LO QUE PEDISTE ANTES) ---
+# Aunque ya lo pusimos en bspwmrc, este atajo es el "clásico" de S4vitar
+# para alternar entre capas y traer al frente manualmente si algo falla
+super + s
+    bspc node -t ~{floating,tiled}
+
+# Abrir explorador Ranger
+super + shift + Return
+    gnome-terminal -- ranger
+
+# Lanzar explorador de archivos Ranger en una terminal nueva
+super + alt + b
+    gnome-terminal -- ranger
