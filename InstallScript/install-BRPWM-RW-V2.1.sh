@@ -13,20 +13,20 @@ endColour="\033[0m\e[0m"
 function banner(){
     clear
     echo -e "${cyanColour}"
-    echo -e "  _____                _                                "
-    echo -e " |  __ \              | |                               "
-    echo -e " | |  | |  __ _  _ __ | | __ _ __    ___  ___  ___      "
-    echo -e " | |  | | / _\` || '__|| |/ /| '_ \  / _ \/ __|/ __|     "
-    echo -e " | |__| || (_| || |   |   < | | | ||  __/\__ \\\\__ \     "
-    echo -e " |_____/  \__,_||_|   |_|\_\|_| |_| \___||___/|___/     "
-    echo -e "  _____  _                 _                            "
-    echo -e " / ____|| |               | |                           "
-    echo -e "| (___  | |__    __ _  _ __ | | __                      "
-    echo -e " \___ \ | '_ \  / _\` || '__|| |/ /                      "
-    echo -e " ____) || | | || (_| || |   |   <                       "
-    echo -e "|_____/ |_| |_| \__,_||_|   |_|\_\                      "
-    echo -e "                                                        "
-    echo -e "       S O L U T I O N S  -  B y  R D M W               "
+    echo -e "    _____                _                                 "
+    echo -e "   |  __ \              | |                                "
+    echo -e "   | |  | |  __ _  _ __ | | __ _ __    ___  ___  ___       "
+    echo -e "   | |  | | / _\`|| '__|| |/ /| '_ \  / _ \/ __|/ __|      "
+    echo -e "   | |__| || (_| || |   |   < | | | ||  __/\__ \\__ \      "
+    echo -e "   |_____/  \__,_||_|   |_|\_\|_| |_| \___||___/|___/      "
+    echo -e "           _____   _                   _                   "
+    echo -e "          / ____| | |                 | |                  "
+    echo -e "         | (___   | |__    __ _  _ __ | | __               "
+    echo -e "          \___ \  | '_ \  / _\`|| '__|| |/ /               "
+    echo -e "          ____) | | | | || (_| || |   |   <                "
+    echo -e "         |_____/  |_| |_| \__,_||_|   |_|\_\               "
+    echo -e "                                                           "
+    echo -e "           S O L U T I O N S  -  B y  R D M W              "
     echo -e "${endColour}"
     echo -e "${purpleColour}[+] Assisting Sage: Gandalf${endColour}"
     echo -e "${blueColour}----------------------------------------------------${endColour}\n"
@@ -73,50 +73,70 @@ function install_i3lock_color(){
     fi
 }
 
-# --- 3. CONFIGURACIONES (Dotfiles & Neovim) ---
+# --- 3. CONFIGURACIONES (Dotfiles, Neovim, Picom y Ranger) ---
 function deploy_configs(){
     if confirm_step "Desplegar Archivos de Configuración"; then
-        progress_bar "30" "Clonando Repositorio Sh4rk27"
+        progress_bar "20" "Clonando Repositorio Sh4rk27"
         rm -rf /tmp/darkness_tmp
         git clone https://github.com/Sh4rk27/dotfiles.git /tmp/darkness_tmp > /dev/null 2>&1
         
-        progress_bar "60" "Mapeando Archivos en ~/.config"
-        mkdir -p ~/.config/nvim
-        # Copia general de dotfiles
-        cp -rv /tmp/darkness_tmp/* ~/.config/ > /dev/null 2>&1
+        progress_bar "50" "Creando árbol de directorios en ~/.config"
+        mkdir -p ~/.config/bspwm ~/.config/sxhkd ~/.config/polybar ~/.config/nvim ~/.config/picom ~/.config/ranger
         
-        # CORRECCIÓN DE NEOVIM: Sincronizar con la ruta de tu Alias de Root
+        progress_bar "70" "Desplegando configuraciones de forma estructurada"
+        # Copia quirúrgica basada en la estructura raíz de tu GitHub
+        cp -rv /tmp/darkness_tmp/bin ~/.config/ > /dev/null 2>&1
+        cp -rv /tmp/darkness_tmp/bspwm/* ~/.config/bspwm/ > /dev/null 2>&1
+        cp -rv /tmp/darkness_tmp/sxhkd/* ~/.config/sxhkd/ > /dev/null 2>&1
+        cp -rv /tmp/darkness_tmp/polybar/* ~/.config/polybar/ > /dev/null 2>&1
+        cp -rv /tmp/darkness_tmp/picom/* ~/.config/picom/ > /dev/null 2>&1
+        cp -rv /tmp/darkness_tmp/ranger/* ~/.config/ranger/ > /dev/null 2>&1
+        cp -rv /tmp/darkness_tmp/wallpapers ~/.config/ > /dev/null 2>&1
+        
+        # Sincronización maestra de Neovim para Usuario Local
+        if [ -d "/tmp/darkness_tmp/nvim" ]; then
+            cp -rv /tmp/darkness_tmp/nvim/* ~/.config/nvim/ > /dev/null 2>&1
+        fi
+        
+        # Sincronización de Neovim para Root (Garantiza el funcionamiento de tu alias)
         sudo mkdir -p /root/.config/nvim
         sudo cp -rv /tmp/darkness_tmp/nvim/* /root/.config/nvim/ > /dev/null 2>&1
         
-        progress_bar "80" "Asignando Permisos Críticos de Ejecución"
-        # Permisos obligatorios para que el entorno pueda arrancar y responder
+        progress_bar "90" "Asignando permisos críticos de ejecución"
         chmod +x ~/.config/bin/* 2>/dev/null
         chmod +x ~/.config/bspwm/bspwmrc 2>/dev/null
         chmod +x ~/.config/polybar/launch.sh 2>/dev/null
-        
-        # ¡LA PIEZA FALTANTE!: Darle permisos a todos los scripts internos de tu Polybar
         chmod +x ~/.config/polybar/scripts/* 2>/dev/null
+        chmod +x ~/.config/ranger/scope.sh 2>/dev/null
         
-        progress_bar "100" "Configuraciones desplegadas con éxito"
+        progress_bar "100" "Configuraciones y permisos desplegados con éxito"
     fi
 }
 
-# --- 4. ZSH & OH MY ZSH ---
+# --- 4. ZSH, OH MY ZSH & POWERLEVEL10K ---
 function setup_zsh(){
-    if confirm_step "Configurar entorno ZSH"; then
-        progress_bar "40" "Clonando Oh My Zsh"
+    if confirm_step "Configurar entorno ZSH & Temas"; then
+        progress_bar "20" "Clonando Oh My Zsh de forma desatendida"
         rm -rf ~/.oh-my-zsh
         sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended > /dev/null 2>&1
         
-        progress_bar "70" "Instalando Plugins (Autosuggestions & Syntax)"
+        progress_bar "50" "Instalando tema maestro Powerlevel10k"
+        rm -rf ~/powerlevel10k
+        git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k > /dev/null 2>&1
+        
+        progress_bar "70" "Instalando complementos de sintaxis y sugerencias"
         git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions > /dev/null 2>&1
         git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting > /dev/null 2>&1
         
-        progress_bar "90" "Cambiando Shell (Requiere contraseña)"
+        # Inyectar el archivo de configuración zshrc del respaldo si existe
+        if [ -f "/tmp/darkness_tmp/zshrc" ]; then
+            cp -f /tmp/darkness_tmp/zshrc ~/.zshrc > /dev/null 2>&1
+        fi
+        
+        progress_bar "90" "Estableciendo Zsh como Shell por defecto"
         sudo chsh -s $(which zsh) $USER
         
-        progress_bar "100" "ZSH configurado correctamente"
+        progress_bar "100" "Entorno de terminal configurado correctamente"
     fi
 }
 
