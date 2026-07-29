@@ -23,15 +23,14 @@ killall -q dunst; dunst &
 sleep 1
 picom --config ~/.config/picom/picom.conf --experimental-backends &
 
-# --- Autostart ---
-$HOME/.config/bspwm/scripts/monitor_setup.sh 
+
 # --- Fin de Autostart ---
 
 sleep 2
 
 # 4. Polybar
-killall -q polybar
-~/.config/polybar/launch.sh &
+#killall -q polybar
+#~/.config/polybar/launch.sh &
 
 # --- CONFIGURACIÓN DE BSPWM ---
 
@@ -44,10 +43,11 @@ bspc config click_to_focus            button1
 bspc config raise_on_click            true
 
 # Asignamos los escritorios a todos los monitores activos
-for m in $(bspc query -M); do
-    bspc monitor eDP-1 -d I II III IV V VI VII VIII IX X
-    bspc monitor HDMI-1 -d I II III IV V VI VII VIII IX X
-done
+#    bspc monitor HDMI-1 -d 1 2 3 4 5 6 7 8 9 10
+#    bspc monitor eDP-1 -d I II III IV V VI VII VIII IX X
+# for m in $(bspc query -M); do
+
+# done
 
 # Estética y Layout
 bspc config border_width         2
@@ -73,3 +73,20 @@ bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Screenkey manage=off
 bspc rule -a Flameshot state=floating border=off
+
+# Para que se abra flotando o en un workspace específico
+bspc rule -a Gemini state=floating
+
+#(O si prefieres apuntar solo a la de sonido mediante su nombre de clase si bspwm la reconoce de forma individual: bspc rule -a "polybar-sound" manage=false lower=true). La propiedad lower=true le ordena al gestor mandarla al fondo del abismo gráfico cada vez que una ventana normal reclame espacio.
+# bspc rule -a Polybar monitor=^1 desktop=^1 manage=false lower=true
+# bspc rule -a Polybar manage=false lower=true
+bspc rule -a Polybar manage=false lower=true
+
+# (Esta regla le dice a bspwm: "Si se ejecuta exactamente Nm-connection-editor, hazlo flotar en el centro con un tamaño controlado de 750x550 píxeles. A todas las demás ventanas del sistema, déjalas en paz en su modo mosaico habitual").
+bspc rule -a Nm-connection-editor state=floating rectangle=750x550+0+0 center=true
+
+
+#bspc rule -a Gsimplecal state=floating focus=off manage=off
+
+# --- Autostart ---
+$HOME/.config/bspwm/scripts/monitor_setup.sh 

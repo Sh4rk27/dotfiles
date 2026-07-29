@@ -21,7 +21,7 @@ super + alt + q
         # Cierra la sesión actual de bspwm (Log out)
 
 super + alt + r
-        bspc wm -r
+        ~/.config/polybar/launch.sh && bspc wm -r
         # Reinicia el gestor de ventanas (Refresca bspwmrc)
 
 # Bloqueo de pantalla
@@ -38,7 +38,9 @@ super + shift + w
         # Fuerza el cierre de la ventana (Kill) si no responde
 
 super + m
-        bspc desktop -l next
+# pactl list short sinks | awk '{print $1}' | xargs -I {} pactl set-sink-volume {} -5%; \
+#    pactl list short sink-inputs | awk '{print $1}' | xargs -I {} pactl set-sink-input-volume {} -5%        bspc desktop -l next
+	bspc desktop -l next
         # Alterna el diseño entre Mosaico y Monóculo (Ventana única)
 
 super + y
@@ -81,8 +83,8 @@ super + ctrl + alt + {Left,Down,Up,Right}
 	bspc node -p {west,south,north,east}
         # Crea una zona naranja donde aterrizará la siguiente ventana
 
-super + ctrl + alt + space
-	bspc node -p cancel
+#super + ctrl + alt + space
+#	bspc node -p cancel
         # Cancela la zona de preselección activa
 
 # --- APLICACIONES PERSONALIZADAS ---
@@ -92,16 +94,20 @@ super + shift + g
 
 super + shift + b
         brave-browser
-        # Lanza Brave
+	# Lanza Brave
 
-# --- ESCRITORIOS (Workspaces) ---
+# --- ESCRITORIOS (Workspaces) --- - Ajustado para Multi-Monitor ---
 super + {1-9,0}
-    bspc desktop -f '^{1-9,10}'
-    # Cambia al escritorio indicado (1 al 10)
+    bspc desktop -f 'focused:^{1-9,10}'
+    # Cambia al escritorio indicado (1 al 10) del monitor que tiene el FOCO actual
 
 super + shift + {1-9,0}
-    bspc node -d '^{1-9,10}'
-    # Mueve la ventana seleccionada al escritorio indicado
+    bspc node -d 'focused:^{1-9,10}'
+    # Mueve la ventana seleccionada al escritorio indicado dentro del Monitor Activo
+
+# Conmutar segundo monitor entre Izquierda y Derecha de forma permanente
+super + alt + l
+    $HOME/.config/bspwm/scripts/monitor_setup.sh toggle
 
 # --- UTILIDADES ---
 ctrl + f
@@ -109,24 +115,41 @@ ctrl + f
         # Herramienta de captura de pantalla
 
 # --- CONTROLES DE HARDWARE (Multimedia) ---
-shift + F1
-    pactl set-sink-mute @DEFAULT_SINK@ toggle
-shift + F2
-    pactl set-sink-volume @DEFAULT_SINK@ -5%
-shift + F3
-    pactl set-sink-volume @DEFAULT_SINK@ +5%
+# Mutear / Desmutear Audio
+# shift + F1
+XF86AudioMute
+	amixer -q sset Master toggle
 
+# Bajar Volumen - 3%
+XF86AudioLowerVolume
+#	amixer -D pulse sset Master 3%-
+	pactl set-sink-volume @DEFAULT_SINK@ -3%
+
+# Subir Volumen + 3%
+XF86AudioRaiseVolume
+#	amixer -D pulse sset Master 3%+
+	pactl set-sink-volume @DEFAULT_SINK@ +3%
+
+# Mutear / Desmutear Micrófono (Usar pactl para evitar conlictos con amixer)
 shift + F4
-    amixer -q sset Capture toggle && \
-    if amixer get Capture | grep -q '\[on\]'; then dunstify -u low "Micrófono: ACTIVADO" -i audio-input-microphone; else dunstify -u critical "Micrófono: MUTED" -i audio-input-microphone-muted; fi
+	amixer -q sset Capture toggle && \
+#	if amixer get Capture | grep -q '\[on\]'; then dunstify -u low "Micrófono: ACTIVADO" -i audio-input-microphone; else dunstify -u critical "Micrófono: MUTED" -i audio-input-microphone-muted; fi
+#     pactl set-source-mute @DEFAULT_SOURCE@ toggle && \
+#    if pactl get-source-mute @DEFAULT_SOURCE@ | grep -q "yes"; then dunstify -u critical "Micrófono" "MUTADO" -i audio-input-microphone; else dunstify -u low "Micrófono" "ACTIVO" -i audio-input-microphone; fi
 
+# --- CONTROL DE BRILLO---
 shift + F5
     brightnessctl set 5%- && dunstify -u low "Brillo: $(brightnessctl get)" -i display-brightness
-shift + F6
+
+shift + F6 
     brightnessctl set +5% && dunstify -u low "Brillo: $(brightnessctl get)" -i display-brightness
 
 shift + F8
     rfkill list wifi | grep -q "yes" && (rfkill unblock all && dunstify -u low "Modo Avión" "DESACTIVADO - WiFi ON" -i network-wireless) || (rfkill block all && dunstify -u critical "Modo Avión" "ACTIVADO - WiFi OFF" -i network-wireless-offline)
+
+# --- INTERRUPTOR DE BLUETOOTH (ENCENDER / APAGAR) ---
+super + shift +F12
+    bluetoothctl show | grep -q "Powered: yes" && (bluetoothctl power off && dunstify -u critical "Bluetooth" "APAGADO - Desconectado" -i bluetooth-disabled) || (bluetoothctl power on && dunstify -u low "Bluetooth" "ENCENDIDO - Listo para conectar" -i bluetooth)
 
 # --- SCRIPTS DE REDIMENSIÓN ---
 alt + super + {Left,Down,Up,Right}
@@ -159,8 +182,8 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
 # Enfocar el último nodo o escritorio visitado (Muy útil)
-super + {grave,Tab}
-	bspc {node,desktop} -f last
+#super + {grave,Tab}
+#	bspc {node,desktop} -f last
 
 # Preselección del ratio (Definir tamaño de la zona naranja)
 super + ctrl + {1-9}
@@ -173,8 +196,8 @@ super + ctrl + alt + space
 # --- TRUCO PARA EL CLIC (LO QUE PEDISTE ANTES) ---
 # Aunque ya lo pusimos en bspwmrc, este atajo es el "clásico" de S4vitar
 # para alternar entre capas y traer al frente manualmente si algo falla
-super + s
-    bspc node -t ~{floating,tiled}
+#super + s
+#    bspc node -t ~{floating,tiled}
 
 # Abrir explorador Ranger
 super + shift + Return
@@ -183,3 +206,20 @@ super + shift + Return
 # Lanzar explorador de archivos Ranger en una terminal nueva
 super + alt + b
     gnome-terminal -- ranger
+
+# Enviar Ventana Activa al Monitor HDMI (Manteniendo el Foco)
+super + shift + h
+    bspc node -m next --follow
+
+# Lanzar Ranger Explorador de Archivos en Terminal
+super + r
+#     x-terminal-emulator -e ranger (esto lanza Ranger pero desde otra terminal)
+# xdotool type --delay 10 "ranger"; xdotool key Return (Lanza Ranger desde la misma terminal usando xdotool)
+xdotool type --delay 10 "ranger"; xdotool key Return
+
+
+# Lanzr zoom sin que dependa de la terminal
+# El comando nohup (no hang up) le indica al sistema que ignore la señal de cierre de la terminal. Si además rediriges los mensajes de error a la nada (/dev/null), tu terminal se quedará completamente limpia:
+
+super + shift + z
+	nohup zoom > /dev/null 2>&1 &
