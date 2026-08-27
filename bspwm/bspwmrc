@@ -66,6 +66,10 @@ bspc config borderless_monocle   false
 bspc config gapless_monocle      false
 bspc config single_monocle       false
 
+# Reserva espacio arriba y abajo para que las ventanas no tapen Polybar
+bspc config top_padding 38
+bspc config bottom_padding 0 
+
 # --- Reglas de Ventanas ---
 bspc rule -a Caja state=floating follow=on
 bspc rule -a Gimp desktop='^8' state=floating follow=on
@@ -73,14 +77,17 @@ bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Screenkey manage=off
 bspc rule -a Flameshot state=floating border=off
-
+# bspc rule -a Scratchpad state=floating rectangle=1200x700+360+190 sticky=on node=scratchpad
+bspc rule -a Gnome-terminal:*:Scratchpad state=floating rectangle=1200x700+360+190 sticky=on
 # Para que se abra flotando o en un workspace específico
 bspc rule -a Gemini state=floating
+
+bspc rule -a Scratchpad state=floating center=on rectangle=1000x650
 
 #(O si prefieres apuntar solo a la de sonido mediante su nombre de clase si bspwm la reconoce de forma individual: bspc rule -a "polybar-sound" manage=false lower=true). La propiedad lower=true le ordena al gestor mandarla al fondo del abismo gráfico cada vez que una ventana normal reclame espacio.
 # bspc rule -a Polybar monitor=^1 desktop=^1 manage=false lower=true
 # bspc rule -a Polybar manage=false lower=true
-bspc rule -a Polybar manage=false lower=true
+bspc rule -a Polybar manage=false
 
 # (Esta regla le dice a bspwm: "Si se ejecuta exactamente Nm-connection-editor, hazlo flotar en el centro con un tamaño controlado de 750x550 píxeles. A todas las demás ventanas del sistema, déjalas en paz en su modo mosaico habitual").
 bspc rule -a Nm-connection-editor state=floating rectangle=750x550+0+0 center=true

@@ -6,10 +6,19 @@ super + Return
         gnome-terminal
         # Abre la terminal principal del sistema
 
+# --- TERMINAL FLOTANTE (SCRATCHPAD) ---
+super + u
+	/home/darkness/.local/bin/scratchpad.sh
+#        bspc node scratchpad -g hidden || gnome-terminal --class=Scratchpad &
+
 # --- LANZADOR DE PROGRAMAS ---
 super + d
         rofi -show run
         # Abre el menú Rofi para buscar y ejecutar aplicaciones
+
+# Historial del Portapapeles con Rofi
+super + c
+        rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
 
 # --- GESTIÓN DEL SISTEMA ---
 super + Escape
@@ -132,24 +141,38 @@ XF86AudioRaiseVolume
 
 # Mutear / Desmutear Micrófono (Usar pactl para evitar conlictos con amixer)
 shift + F4
-	amixer -q sset Capture toggle && \
+	amixer -q sset Capture toggle
 #	if amixer get Capture | grep -q '\[on\]'; then dunstify -u low "Micrófono: ACTIVADO" -i audio-input-microphone; else dunstify -u critical "Micrófono: MUTED" -i audio-input-microphone-muted; fi
 #     pactl set-source-mute @DEFAULT_SOURCE@ toggle && \
 #    if pactl get-source-mute @DEFAULT_SOURCE@ | grep -q "yes"; then dunstify -u critical "Micrófono" "MUTADO" -i audio-input-microphone; else dunstify -u low "Micrófono" "ACTIVO" -i audio-input-microphone; fi
 
 # --- CONTROL DE BRILLO---
-shift + F5
-    brightnessctl set 5%- && dunstify -u low "Brillo: $(brightnessctl get)" -i display-brightness
+#shift + F5
+#    brightnessctl set 5%- && dunstify -u low "Brillo: $(brightnessctl get)" -i display-brightness
 
-shift + F6 
-    brightnessctl set +5% && dunstify -u low "Brillo: $(brightnessctl get)" -i display-brightness
+#shift + F6 
+#    brightnessctl set +5% && dunstify -u low "Brillo: $(brightnessctl get)" -i display-brightness
 
-shift + F8
-    rfkill list wifi | grep -q "yes" && (rfkill unblock all && dunstify -u low "Modo Avión" "DESACTIVADO - WiFi ON" -i network-wireless) || (rfkill block all && dunstify -u critical "Modo Avión" "ACTIVADO - WiFi OFF" -i network-wireless-offline)
+#shift + F8
+#    rfkill list wifi | grep -q "yes" && (rfkill unblock all && dunstify -u low "Modo Avión" "DESACTIVADO - WiFi ON" -i network-wireless) || (rfkill block all && dunstify -u critical "Modo Avión" "ACTIVADO - WiFi OFF" -i network-wireless-offline)
+
+
+# --- CONTROL DE BRILLO ---
+XF86MonBrightness{Down,Up}
+	brightnessctl set 5%{-,+} && dunstify -a "Brillo" -u low -r 9991 "Brillo: $(brightnessctl -m | cut -d, -f4)" -i display-brightness
+
+F{5,6}
+	brightnessctl set 5%{-,+} && dunstify -a "Brillo" -u low -r 9991 "Brillo: $(brightnessctl -m | cut -d, -f4)" -i display-brightness
+
 
 # --- INTERRUPTOR DE BLUETOOTH (ENCENDER / APAGAR) ---
 super + shift +F12
     bluetoothctl show | grep -q "Powered: yes" && (bluetoothctl power off && dunstify -u critical "Bluetooth" "APAGADO - Desconectado" -i bluetooth-disabled) || (bluetoothctl power on && dunstify -u low "Bluetooth" "ENCENDIDO - Listo para conectar" -i bluetooth)
+
+# --- MODO AVIÓN ---
+# Activar / Desactivar Modo Avión (Fix de sintaxis en el rfkill)
+shift + F8
+    rfkill list wifi | grep -q "Soft blocked: yes" && (rfkill unblock all && dunstify -a "Red" -u low -r 9992 "Modo Avión" "DESACTIVADO - WiFi ON" -i network-wireless) || (rfkill block all && dunstify -a "Red" -u low -r 9992 "Modo Avión" "ACTIVADO - WiFi OFF" -i network-wireless-disconnected)
 
 # --- SCRIPTS DE REDIMENSIÓN ---
 alt + super + {Left,Down,Up,Right}
@@ -223,3 +246,10 @@ xdotool type --delay 10 "ranger"; xdotool key Return
 
 super + shift + z
 	nohup zoom > /dev/null 2>&1 &
+
+## Busqueda de Contraseñas por KeePassxc
+# super + k
+
+# --- MOSTRAR CHULETA DE ATAJOS Y CONFIGURACIONES ---
+super + ctrl + h
+        gnome-terminal --class=Scratchpad -e "glow -s dark /home/darkness/.config/cheat-sheet.md -p"

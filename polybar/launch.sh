@@ -2,7 +2,8 @@
 
 # Terminar instancias en ejecución
 killall -q polybar
- while pgrep -u $UID -x polybar >/dev/null; do sleep 0.2; done
+# while pgrep -u $UID -x polybar >/dev/null; do sleep 0.2; done
+ while pgrep -x polybar >/dev/null; do sleep 0.2; done
 # while pgrep -x polybar >/dev/null; do sleep 1; done
 # while pgrep -x polybar >/dev/null; do sleep 0.5; done
 
@@ -15,10 +16,12 @@ if command -v xrandr >/dev/null 2>&1; then
   for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
     MONITOR=$m polybar left -c "$CFG" >/dev/null 2>&1 &
     MONITOR=$m polybar right -c "$CFG" >/dev/null 2>&1 &
+    sleep 0.1
     MONITOR=$m polybar primary -c "$WSP" >/dev/null 2>&1 &
   done
 else
   polybar left -c "$CFG" &
   polybar right -c "$CFG" &
+  sleep 0.1
   polybar primary -c "$WSP" &
 fi
