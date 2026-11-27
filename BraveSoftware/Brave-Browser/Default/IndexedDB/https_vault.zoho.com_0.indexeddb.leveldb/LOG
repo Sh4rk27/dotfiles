@@ -1,0 +1,34 @@
+2026/11/25-11:57:10.513 1126 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vault.zoho.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/25-11:57:10.514 1126 Recovering log #33
+2026/11/25-11:57:10.514 1126 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vault.zoho.com_0.indexeddb.leveldb/000033.log 
+2026/11/25-11:57:10.514 1126 Delete type=2 #31
+2026/11/25-11:57:10.545 1128 Level-0 table #38: started
+2026/11/25-11:57:10.547 1128 Level-0 table #38: 524 bytes OK
+2026/11/25-11:57:10.549 1128 Delete type=0 #33
+2026/11/25-11:57:10.549 1128 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 162 : 1
+2026/11/25-11:57:10.549 1128 Compacting 1@0 + 1@1 files
+2026/11/25-11:57:10.550 1128 Generated table #39@0: 5 keys, 258 bytes
+2026/11/25-11:57:10.550 1128 Compacted 1@0 + 1@1 files => 258 bytes
+2026/11/25-11:57:10.552 1128 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/25-11:57:10.553 1128 Delete type=2 #38
+2026/11/25-11:57:10.553 1128 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 162 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/25-11:57:12.553 1128 Level-0 table #41: started
+2026/11/25-11:57:12.555 1128 Level-0 table #41: 230 bytes OK
+2026/11/25-11:57:12.557 1128 Delete type=0 #37
+2026/11/25-11:57:12.557 1128 Delete type=2 #35
+2026/11/25-11:57:12.558 1128 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 176 : 0
+2026/11/25-11:57:12.558 1128 Compacting 1@0 + 1@1 files
+2026/11/25-11:57:12.559 1128 Generated table #42@0: 4 keys, 234 bytes
+2026/11/25-11:57:12.559 1128 Compacted 1@0 + 1@1 files => 234 bytes
+2026/11/25-11:57:12.560 1128 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/25-11:57:12.561 1128 Delete type=2 #41
+2026/11/25-11:57:12.561 1128 Delete type=2 #39
+2026/11/25-11:57:12.561 1128 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 176 : 0 .. (end); will stop at (end)
+2026/11/25-11:57:12.561 1128 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 178 : 1
+2026/11/25-11:57:12.561 1128 Compacting 1@1 + 1@2 files
+2026/11/25-11:57:12.563 1128 Generated table #43@1: 6 keys, 268 bytes
+2026/11/25-11:57:12.563 1128 Compacted 1@1 + 1@2 files => 268 bytes
+2026/11/25-11:57:12.564 1128 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/25-11:57:12.564 1128 Delete type=2 #12
+2026/11/25-11:57:12.564 1128 Delete type=2 #42
+2026/11/25-11:57:12.564 1128 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 178 : 1 .. (end); will stop at (end)

@@ -1,0 +1,51 @@
+2026/08/18-14:27:30.682 bce Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/18-14:27:30.682 bce Recovering log #4
+2026/08/18-14:27:30.692 bce Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000004.log 
+2026/08/18-14:57:30.814 bd9 Level-0 table #8: started
+2026/08/18-14:57:30.833 bd9 Level-0 table #8: 2418619 bytes OK
+2026/08/18-14:57:30.837 bd9 Delete type=0 #4
+2026/08/18-15:03:19.490 bce Compacting 1@1 + 1@2 files
+2026/08/18-15:03:19.515 bce Generated table #9@1: 59 keys, 15787 bytes
+2026/08/18-15:03:19.515 bce Compacted 1@1 + 1@2 files => 15787 bytes
+2026/08/18-15:03:19.516 bce compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/18-15:03:19.516 bce Delete type=2 #5
+2026/08/18-15:03:19.516 bce Delete type=2 #8
+2026/08/18-15:52:28.589 bd0 Level-0 table #11: started
+2026/08/18-15:52:28.607 bd0 Level-0 table #11: 2234818 bytes OK
+2026/08/18-15:52:28.609 bd0 Delete type=0 #7
+2026/08/18-15:59:56.597 bce Compacting 1@1 + 1@2 files
+2026/08/18-15:59:56.612 bce Generated table #12@1: 51 keys, 15179 bytes
+2026/08/18-15:59:56.612 bce Compacted 1@1 + 1@2 files => 15179 bytes
+2026/08/18-15:59:56.613 bce compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/18-15:59:56.613 bce Delete type=2 #11
+2026/08/18-15:59:56.613 bce Delete type=2 #9
+2026/08/18-16:46:45.340 bd0 Level-0 table #14: started
+2026/08/18-16:46:45.370 bd0 Level-0 table #14: 2269086 bytes OK
+2026/08/18-16:46:45.376 bd0 Delete type=0 #10
+2026/08/18-16:51:05.342 bce Compacting 1@1 + 1@2 files
+2026/08/18-16:51:05.356 bce Generated table #15@1: 51 keys, 14983 bytes
+2026/08/18-16:51:05.356 bce Compacted 1@1 + 1@2 files => 14983 bytes
+2026/08/18-16:51:05.357 bce compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/18-16:51:05.357 bce Delete type=2 #14
+2026/08/18-16:51:05.357 bce Delete type=2 #12
+2026/08/18-17:40:57.394 bce Level-0 table #17: started
+2026/08/18-17:40:57.421 bce Level-0 table #17: 2167468 bytes OK
+2026/08/18-17:40:57.426 bce Delete type=0 #13
+2026/08/18-17:47:21.397 bce Compacting 1@1 + 1@2 files
+2026/08/18-17:47:21.417 bce Generated table #18@1: 52 keys, 14758 bytes
+2026/08/18-17:47:21.417 bce Compacted 1@1 + 1@2 files => 14758 bytes
+2026/08/18-17:47:21.418 bce compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/18-17:47:21.419 bce Delete type=2 #17
+2026/08/18-17:47:21.419 bce Delete type=2 #15
+2026/08/18-18:35:34.698 bd0 Level-0 table #20: started
+2026/08/18-18:35:34.708 bd0 Level-0 table #20: 1165081 bytes OK
+2026/08/18-18:35:34.712 bd0 Delete type=0 #16
+2026/08/18-18:35:34.713 bd0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/08/18-18:35:34.714 bd0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x0e\x00u\x00n\x00s\x00e\x00n\x00t\x00p\x00l\x00a\x00y\x00d\x00a\x00t\x00a' @ 51221 : 1
+2026/08/18-18:35:34.714 bd0 Compacting 1@1 + 1@2 files
+2026/08/18-18:35:34.720 bd0 Generated table #21@1: 50 keys, 10450 bytes
+2026/08/18-18:35:34.720 bd0 Compacted 1@1 + 1@2 files => 10450 bytes
+2026/08/18-18:35:34.721 bd0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/08/18-18:35:34.721 bd0 Delete type=2 #20
+2026/08/18-18:35:34.721 bd0 Delete type=2 #18
+2026/08/18-18:35:34.722 bd0 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x0e\x00u\x00n\x00s\x00e\x00n\x00t\x00p\x00l\x00a\x00y\x00d\x00a\x00t\x00a' @ 51221 : 1 .. (end); will stop at (end)

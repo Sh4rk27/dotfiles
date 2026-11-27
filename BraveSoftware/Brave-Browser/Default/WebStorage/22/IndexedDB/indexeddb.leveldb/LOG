@@ -1,0 +1,15 @@
+2026/11/16-10:23:21.106 1078 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/WebStorage/22/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/11/16-10:23:21.106 1078 Recovering log #14
+2026/11/16-10:23:21.124 1078 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/WebStorage/22/IndexedDB/indexeddb.leveldb/000014.log 
+2026/11/16-10:23:21.171 1083 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/16-10:23:21.188 1076 Level-0 table #19: started
+2026/11/16-10:23:21.195 1076 Level-0 table #19: 621756 bytes OK
+2026/11/16-10:23:21.196 1076 Delete type=0 #14
+2026/11/16-10:23:21.196 1076 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/16-10:23:21.197 1076 Manual compaction at level-1 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 13569 : 1
+2026/11/16-10:23:21.197 1076 Compacting 1@1 + 1@2 files
+2026/11/16-10:23:21.202 1076 Generated table #20@1: 61 keys, 1410 bytes
+2026/11/16-10:23:21.202 1076 Compacted 1@1 + 1@2 files => 1410 bytes
+2026/11/16-10:23:21.204 1076 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/16-10:23:21.204 1076 Delete type=2 #19
+2026/11/16-10:23:21.207 1076 Manual compaction at level-1 from '\x00\x06\x00\x00\xc8\x11\x00L\x00o\x00g\x00s\x00R\x00e\x00q\x00u\x00e\x00s\x00t\x00s\x00S\x00t\x00o\x00r\x00e' @ 13569 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,12 @@
+2026/11/10-08:25:11.942 1084 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
+2026/11/10-08:25:11.944 1084 Recovering log #10
+2026/11/10-08:25:11.947 1084 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000010.log 
+2026/11/19-11:14:42.866 1076 Level-0 table #15: started
+2026/11/19-11:14:42.876 1076 Level-0 table #15: 96780 bytes OK
+2026/11/19-11:14:42.878 1076 Delete type=0 #10
+2026/11/20-10:55:17.916 1076 Compacting 1@1 + 1@2 files
+2026/11/20-10:55:17.927 1076 Generated table #16@1: 132 keys, 15378 bytes
+2026/11/20-10:55:17.927 1076 Compacted 1@1 + 1@2 files => 15378 bytes
+2026/11/20-10:55:17.929 1076 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/20-10:55:17.930 1076 Delete type=2 #12
+2026/11/20-10:55:17.930 1076 Delete type=2 #15

@@ -1,0 +1,15 @@
+2026/07/31-12:26:04.480 280c9d Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.psiexams.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/07/31-12:26:04.480 280c9d Recovering log #4
+2026/07/31-12:26:04.480 280c9d Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.psiexams.com_0.indexeddb.leveldb/000004.log 
+2026/07/31-12:30:54.569 280ca1 Level-0 table #8: started
+2026/07/31-12:30:54.572 280ca1 Level-0 table #8: 190 bytes OK
+2026/07/31-12:30:54.574 280ca1 Delete type=0 #4
+2026/07/31-12:30:54.574 280ca1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/07/31-12:30:54.574 280ca1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 46 : 1
+2026/07/31-12:30:54.574 280ca1 Compacting 1@1 + 1@2 files
+2026/07/31-12:30:54.576 280ca1 Generated table #9@1: 19 keys, 513 bytes
+2026/07/31-12:30:54.576 280ca1 Compacted 1@1 + 1@2 files => 513 bytes
+2026/07/31-12:30:54.577 280ca1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/31-12:30:54.578 280ca1 Delete type=2 #5
+2026/07/31-12:30:54.578 280ca1 Delete type=2 #8
+2026/07/31-12:30:54.578 280ca1 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 46 : 1 .. (end); will stop at (end)

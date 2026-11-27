@@ -1,0 +1,15 @@
+2026/10/01-07:58:31.090 c87 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/01-07:58:31.090 c87 Recovering log #7
+2026/10/01-07:58:31.090 c87 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/000007.log 
+2026/10/01-07:59:09.581 c86 Level-0 table #12: started
+2026/10/01-07:59:09.583 c86 Level-0 table #12: 21321 bytes OK
+2026/10/01-07:59:09.587 c86 Delete type=0 #7
+2026/10/01-07:59:09.588 c86 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/10/01-07:59:09.588 c86 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x01\x02\x01\x13\x007\x006\x006\x008\x004\x001\x004\x000\x005\x009\x008\x007\x006\x004\x001\x009\x000\x007\x009' @ 3067 : 1
+2026/10/01-07:59:09.588 c86 Compacting 1@1 + 1@2 files
+2026/10/01-07:59:09.590 c86 Generated table #13@1: 551 keys, 10532 bytes
+2026/10/01-07:59:09.590 c86 Compacted 1@1 + 1@2 files => 10532 bytes
+2026/10/01-07:59:09.591 c86 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/10/01-07:59:09.592 c86 Delete type=2 #12
+2026/10/01-07:59:09.592 c86 Delete type=2 #9
+2026/10/01-07:59:09.593 c86 Manual compaction at level-1 from '\x00\x05\x01\x02\x01\x13\x007\x006\x006\x008\x004\x001\x004\x000\x005\x009\x008\x007\x006\x004\x001\x009\x000\x007\x009' @ 3067 : 1 .. (end); will stop at (end)

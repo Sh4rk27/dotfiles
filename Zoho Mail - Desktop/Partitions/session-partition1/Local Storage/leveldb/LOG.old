@@ -1,0 +1,87 @@
+2026/11/10-08:24:48.262 f1c Reusing MANIFEST /home/darkness/.config/Zoho Mail - Desktop/Partitions/session-partition1/Local Storage/leveldb/MANIFEST-000001
+2026/11/10-08:24:48.273 f1c Recovering log #495
+2026/11/10-08:24:48.274 f1c Reusing old log /home/darkness/.config/Zoho Mail - Desktop/Partitions/session-partition1/Local Storage/leveldb/000495.log 
+2026/11/18-10:01:04.451 f35 Level-0 table #499: started
+2026/11/18-10:01:04.460 f35 Level-0 table #499: 7916 bytes OK
+2026/11/18-10:01:04.462 f35 Delete type=0 #495
+2026/11/18-10:01:04.463 f35 Compacting 4@0 + 1@1 files
+2026/11/18-10:01:04.466 f35 Generated table #500@0: 18 keys, 10071 bytes
+2026/11/18-10:01:04.466 f35 Compacted 4@0 + 1@1 files => 10071 bytes
+2026/11/18-10:01:04.468 f35 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/18-10:01:04.468 f35 Delete type=2 #494
+2026/11/18-10:01:04.468 f35 Delete type=2 #499
+2026/11/18-10:01:04.469 f35 Delete type=2 #492
+2026/11/18-10:01:04.469 f35 Delete type=2 #496
+2026/11/18-10:01:04.469 f35 Delete type=2 #490
+2026/11/19-07:57:47.398 f35 Level-0 table #502: started
+2026/11/19-07:57:47.407 f35 Level-0 table #502: 14770 bytes OK
+2026/11/19-07:57:47.410 f35 Delete type=0 #498
+2026/11/19-10:35:51.250 f35 Level-0 table #504: started
+2026/11/19-10:35:51.259 f35 Level-0 table #504: 7285 bytes OK
+2026/11/19-10:35:51.262 f35 Delete type=0 #501
+2026/11/19-13:13:51.249 f1c Level-0 table #506: started
+2026/11/19-13:13:51.257 f1c Level-0 table #506: 7162 bytes OK
+2026/11/19-13:13:51.259 f1c Delete type=0 #503
+2026/11/19-17:39:50.551 f35 Level-0 table #508: started
+2026/11/19-17:39:50.553 f35 Level-0 table #508: 7311 bytes OK
+2026/11/19-17:39:50.555 f35 Delete type=0 #505
+2026/11/19-17:39:50.556 f35 Compacting 4@0 + 1@1 files
+2026/11/19-17:39:50.559 f35 Generated table #509@0: 18 keys, 10078 bytes
+2026/11/19-17:39:50.559 f35 Compacted 4@0 + 1@1 files => 10078 bytes
+2026/11/19-17:39:50.560 f35 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/19-17:39:50.561 f35 Delete type=2 #506
+2026/11/19-17:39:50.561 f35 Delete type=2 #504
+2026/11/19-17:39:50.561 f35 Delete type=2 #508
+2026/11/19-17:39:50.561 f35 Delete type=2 #500
+2026/11/19-17:39:50.561 f35 Delete type=2 #502
+2026/11/20-00:56:42.242 f35 Level-0 table #511: started
+2026/11/20-00:56:42.250 f35 Level-0 table #511: 7370 bytes OK
+2026/11/20-00:56:42.252 f35 Delete type=0 #507
+2026/11/20-09:53:12.125 f1c Level-0 table #513: started
+2026/11/20-09:53:12.137 f1c Level-0 table #513: 7260 bytes OK
+2026/11/20-09:53:12.139 f1c Delete type=0 #510
+2026/11/20-12:48:56.836 f1c Level-0 table #515: started
+2026/11/20-12:48:56.843 f1c Level-0 table #515: 7276 bytes OK
+2026/11/20-12:48:56.845 f1c Delete type=0 #512
+2026/11/20-16:41:53.133 f1c Level-0 table #517: started
+2026/11/20-16:41:53.141 f1c Level-0 table #517: 7213 bytes OK
+2026/11/20-16:41:53.143 f1c Delete type=0 #514
+2026/11/20-16:41:53.144 f1c Compacting 4@0 + 1@1 files
+2026/11/20-16:41:53.147 f1c Generated table #518@0: 18 keys, 10078 bytes
+2026/11/20-16:41:53.147 f1c Compacted 4@0 + 1@1 files => 10078 bytes
+2026/11/20-16:41:53.148 f1c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/20-16:41:53.149 f1c Delete type=2 #515
+2026/11/20-16:41:53.149 f1c Delete type=2 #509
+2026/11/20-16:41:53.149 f1c Delete type=2 #517
+2026/11/20-16:41:53.149 f1c Delete type=2 #513
+2026/11/20-16:41:53.149 f1c Delete type=2 #511
+2026/11/21-02:29:11.446 f35 Level-0 table #520: started
+2026/11/21-02:29:11.454 f35 Level-0 table #520: 7459 bytes OK
+2026/11/21-02:29:11.456 f35 Delete type=0 #516
+2026/11/21-05:07:11.442 f1c Level-0 table #522: started
+2026/11/21-05:07:11.450 f1c Level-0 table #522: 7235 bytes OK
+2026/11/21-05:07:11.452 f1c Delete type=0 #519
+2026/11/21-07:45:11.446 f35 Level-0 table #524: started
+2026/11/21-07:45:11.454 f35 Level-0 table #524: 7197 bytes OK
+2026/11/21-07:45:11.456 f35 Delete type=0 #521
+2026/11/21-10:23:11.450 f1c Level-0 table #526: started
+2026/11/21-10:23:11.458 f1c Level-0 table #526: 7190 bytes OK
+2026/11/21-10:23:11.460 f1c Delete type=0 #523
+2026/11/21-10:23:11.460 f1c Compacting 4@0 + 1@1 files
+2026/11/21-10:23:11.463 f1c Generated table #527@0: 18 keys, 10078 bytes
+2026/11/21-10:23:11.464 f1c Compacted 4@0 + 1@1 files => 10078 bytes
+2026/11/21-10:23:11.465 f1c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/21-10:23:11.466 f1c Delete type=2 #520
+2026/11/21-10:23:11.466 f1c Delete type=2 #526
+2026/11/21-10:23:11.466 f1c Delete type=2 #522
+2026/11/21-10:23:11.466 f1c Delete type=2 #524
+2026/11/21-10:23:11.466 f1c Delete type=2 #518
+2026/11/21-13:01:11.445 f35 Level-0 table #529: started
+2026/11/21-13:01:11.453 f35 Level-0 table #529: 7218 bytes OK
+2026/11/21-13:01:11.455 f35 Delete type=0 #525
+2026/11/22-00:23:47.464 f1c Level-0 table #531: started
+2026/11/22-00:23:47.468 f1c Level-0 table #531: 7291 bytes OK
+2026/11/22-00:23:47.469 f1c Delete type=0 #528
+2026/11/23-11:22:25.159 f1c Level-0 table #533: started
+2026/11/23-11:22:25.168 f1c Level-0 table #533: 7319 bytes OK
+2026/11/23-11:22:25.171 f1c Delete type=0 #530

@@ -1,0 +1,14 @@
+2026/11/23-12:04:48.081 1126 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_people.zoho.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/23-12:04:48.081 1126 Recovering log #92
+2026/11/23-12:04:48.082 1126 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_people.zoho.com_0.indexeddb.leveldb/000092.log 
+2026/11/23-12:04:48.082 1126 Delete type=2 #90
+2026/11/23-12:04:48.257 1128 Level-0 table #97: started
+2026/11/23-12:04:48.258 1128 Level-0 table #97: 1500 bytes OK
+2026/11/23-12:04:48.259 1128 Delete type=0 #92
+2026/11/23-12:04:48.260 1126 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x01\x02\x01\x03\x00k\x00e\x00y' @ 1399 : 1
+2026/11/23-12:04:48.260 1126 Compacting 1@0 + 1@1 files
+2026/11/23-12:04:48.262 1126 Generated table #98@0: 32 keys, 707 bytes
+2026/11/23-12:04:48.262 1126 Compacted 1@0 + 1@1 files => 707 bytes
+2026/11/23-12:04:48.263 1126 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/23-12:04:48.263 1126 Delete type=2 #97
+2026/11/23-12:04:48.264 1126 Manual compaction at level-0 from '\x00\x15\x01\x02\x01\x03\x00k\x00e\x00y' @ 1399 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)

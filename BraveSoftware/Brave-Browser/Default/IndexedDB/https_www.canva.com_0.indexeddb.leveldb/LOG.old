@@ -1,0 +1,21 @@
+2026/11/13-12:30:14.522 1076 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/13-12:30:14.523 1076 Recovering log #12
+2026/11/13-12:30:14.523 1076 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000012.log 
+2026/11/14-10:34:55.257 1076 Level-0 table #17: started
+2026/11/14-10:34:55.292 1076 Level-0 table #17: 762369 bytes OK
+2026/11/14-10:34:55.295 1076 Delete type=0 #12
+2026/11/14-10:34:57.254 1078 Compacting 1@1 + 1@2 files
+2026/11/14-10:34:57.286 1078 Generated table #18@1: 226 keys, 10538 bytes
+2026/11/14-10:34:57.286 1078 Compacted 1@1 + 1@2 files => 10538 bytes
+2026/11/14-10:34:57.287 1078 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/14-10:34:57.288 1078 Delete type=2 #14
+2026/11/14-10:34:57.288 1078 Delete type=2 #17
+2026/11/14-12:04:16.119 1083 Level-0 table #20: started
+2026/11/14-12:04:16.143 1083 Level-0 table #20: 721077 bytes OK
+2026/11/14-12:04:16.146 1083 Delete type=0 #16
+2026/11/14-12:04:19.121 1083 Compacting 1@1 + 1@2 files
+2026/11/14-12:04:19.146 1083 Generated table #21@1: 229 keys, 10650 bytes
+2026/11/14-12:04:19.146 1083 Compacted 1@1 + 1@2 files => 10650 bytes
+2026/11/14-12:04:19.148 1083 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/14-12:04:19.148 1083 Delete type=2 #20
+2026/11/14-12:04:19.148 1083 Delete type=2 #18

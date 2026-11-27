@@ -26,7 +26,22 @@ else
     connected=$(bluetoothctl devices | cut -d ' ' -f 2 | xargs -I {} bluetoothctl info {} 2>/dev/null | grep -c "Connected: yes")
 
     if [ "$connected" -gt 0 ]; then
-        echo "%{F#2196F3}$ICON_ON%{F-} $connected"
+        # --- INICIO DE PARÁMETROS AGREGADOS ---
+        dev_mac=$(bluetoothctl devices Connected | head -n 1 | cut -d ' ' -f 2)
+        bat=$(bluetoothctl info "$dev_mac" 2>/dev/null | grep "Battery Percentage" | awk -F '[()]' '{print $2}')
+
+        if [ -z "$bat" ] && [ -n "$dev_mac" ]; then
+            mac_us=$(echo "$dev_mac" | tr ':' '_')
+            upower_dev=$(upower -e | grep -i "$mac_us" | head -n 1)
+            [ -n "$upower_dev" ] && bat=$(upower -i "$upower_dev" | awk '/percentage:/ {print $2}' | tr -d '%')
+        fi
+
+        if [ -n "$bat" ]; then
+            echo "%{F#2196F3}$ICON_ON%{F-} $connected-${bat}%"
+        else
+            echo "%{F#2196F3}$ICON_ON%{F-} $connected"
+        fi
+        # --- FIN DE PARÁMETROS AGREGADOS ---
     else
         echo "%{F#ffffff}$ICON_ON%{F-} on"
     fi

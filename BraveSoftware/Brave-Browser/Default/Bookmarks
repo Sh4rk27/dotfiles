@@ -1,0 +1,191 @@
+{
+   "checksum": "c1b6fc164f643964394907748d9cc28b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13430341111782820",
+               "date_last_used": "0",
+               "guid": "ec699019-1c02-421b-b9f2-fda153777fdc",
+               "id": "6",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Proxmox VE Helper-Scripts",
+               "type": "url",
+               "url": "https://community-scripts.org/"
+            }, {
+               "date_added": "13430341878848663",
+               "date_last_used": "13437254905246569",
+               "guid": "d557ffad-aff2-4f1b-967f-8e39383e649c",
+               "id": "7",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Proxmox - Powerful open-source server solutions",
+               "type": "url",
+               "url": "https://www.proxmox.com/en/"
+            }, {
+               "date_added": "13430342183708852",
+               "date_last_used": "0",
+               "guid": "b8a64bf5-8c91-4c00-84da-c16c7797aa4f",
+               "id": "8",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Installing ProxMenux | ProxMenux Documentation",
+               "type": "url",
+               "url": "https://proxmenux.com/en/docs/installation/"
+            }, {
+               "children": [ {
+                  "date_added": "13431113607442786",
+                  "date_last_used": "0",
+                  "guid": "48217131-33b3-452a-8710-d0b9e812b223",
+                  "id": "11",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Proxmox Support Forum",
+                  "type": "url",
+                  "url": "https://forum.proxmox.com/"
+               }, {
+                  "date_added": "13439590715669559",
+                  "date_last_used": "0",
+                  "guid": "901a646f-e013-40c0-8acd-8bf24aca5ccf",
+                  "id": "13",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "(12176) Clínicas de futbol americano: Línea defensiva: 6 de abril de 2021 - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=gNbK_dYFXA8"
+               } ],
+               "date_added": "13431113592848001",
+               "date_last_used": "0",
+               "date_modified": "13439590715669559",
+               "guid": "a3ab486b-f7c0-4179-8eff-f81177337dc8",
+               "id": "10",
+               "name": "Foros-Proxmox",
+               "type": "folder"
+            } ],
+            "date_added": "13430341098907754",
+            "date_last_used": "0",
+            "date_modified": "13431113607442786",
+            "guid": "a3279afa-a3f1-4dbe-981d-0f468b653358",
+            "id": "5",
+            "name": "ProxMox",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13439922762488031",
+               "date_last_used": "13440003390868569",
+               "guid": "8ad4c649-80fa-4549-ac74-59313428a673",
+               "id": "15",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Administrador de contraseñas en línea",
+               "type": "url",
+               "url": "https://vault.zoho.com/app#/main/folders"
+            }, {
+               "date_added": "13439922770565178",
+               "date_last_used": "13440003286934341",
+               "guid": "56a5c681-6646-4f19-aa59-906c696a0b50",
+               "id": "16",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(5) Intecfra",
+               "type": "url",
+               "url": "https://soporte.intecfra.com/agent/intecfra/all/tickets/list/my-cases"
+            }, {
+               "date_added": "13439923064975256",
+               "date_last_used": "13440003299227868",
+               "guid": "0f15191e-feae-452f-8087-f442f5e35dbc",
+               "id": "17",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Infrastructure Map | FortiMonitor",
+               "type": "url",
+               "url": "https://my.us01.fortimonitor.com/infra_map"
+            }, {
+               "date_added": "13439938517604923",
+               "date_last_used": "13440003310799035",
+               "guid": "daad4d25-6278-488d-aebb-dad51d19ddb1",
+               "id": "19",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Intecfra NOC | FortiMonitor",
+               "type": "url",
+               "url": "https://my.us01.fortimonitor.com/dashboardv2/renderDashboard?dashboard_id=49909"
+            }, {
+               "date_added": "13439938524967447",
+               "date_last_used": "13440003343016956",
+               "guid": "8686a293-6e2c-4046-9f23-141fd7037cb4",
+               "id": "20",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Dispositivos - Acceso no supervisado | Zoho Assist",
+               "type": "url",
+               "url": "https://assist.zoho.com/org/723525991/app/unattended/devices?search=lap"
+            }, {
+               "children": [ {
+                  "children": [  ],
+                  "date_added": "13440021529343484",
+                  "date_last_used": "0",
+                  "date_modified": "13440021529343484",
+                  "guid": "d325f01c-3059-473d-b71c-8ef4fed1bcb9",
+                  "id": "22",
+                  "name": "Nueva carpeta",
+                  "type": "folder"
+               } ],
+               "date_added": "13440021529343051",
+               "date_last_used": "0",
+               "date_modified": "13440021529343625",
+               "guid": "16473ed3-7b57-48b0-bed1-a7197b7881bb",
+               "id": "21",
+               "name": "Posgress Admin-Win-Veeam",
+               "type": "folder"
+            } ],
+            "date_added": "13439922749952009",
+            "date_last_used": "0",
+            "date_modified": "13439938524967447",
+            "guid": "451e5ca0-43b7-4483-8289-89406ceec042",
+            "id": "14",
+            "name": "Intecfra, NOC",
+            "type": "folder"
+         } ],
+         "date_added": "13429838795845742",
+         "date_last_used": "0",
+         "date_modified": "13439922762488031",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13429838795845742",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13429838795845742",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos del dispositivo",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

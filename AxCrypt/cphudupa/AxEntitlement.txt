@@ -1,0 +1,23 @@
+{
+  "userId": 942677,
+  "encryptedFiles": 0,
+  "maxEncryptFileLimit": 2,
+  "deletedFiles": 0,
+  "maxDeleteFileLimit": 0,
+  "secretCreateCount": 0,
+  "maxSecretCreateLimit": 10,
+  "secretShareCount": 0,
+  "maxSecretShareLimit": 1,
+  "secureMessageCount": 0,
+  "maxSecureMessageLimit": 10,
+  "secureMessageRecipients": 0,
+  "maxSecureMessageRecipientLimit": 0,
+  "securedFolders": 0,
+  "maxSecureFolderLimit": 0,
+  "textEncryptionLimit": 0,
+  "maxTextEncryptionLimit": 0,
+  "textEncryptionShared": 0,
+  "maxTextEncryptionSharingLimit": 0,
+  "KeySharingCount": 0,
+  "maxKeySharingLimit": 1
+}

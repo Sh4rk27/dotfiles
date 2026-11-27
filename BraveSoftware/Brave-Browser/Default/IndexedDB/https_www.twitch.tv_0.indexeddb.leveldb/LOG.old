@@ -1,0 +1,15 @@
+2026/11/19-22:54:31.532 1076 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/19-22:54:31.532 1076 Recovering log #4
+2026/11/19-22:54:31.532 1076 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/000004.log 
+2026/11/20-01:00:24.999 1078 Level-0 table #8: started
+2026/11/20-01:00:25.002 1078 Level-0 table #8: 53830 bytes OK
+2026/11/20-01:00:25.005 1078 Delete type=0 #4
+2026/11/20-01:00:25.005 1078 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/11/20-01:00:25.006 1078 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 1043 : 1
+2026/11/20-01:00:25.006 1078 Compacting 1@1 + 1@2 files
+2026/11/20-01:00:25.010 1078 Generated table #9@1: 186 keys, 39782 bytes
+2026/11/20-01:00:25.010 1078 Compacted 1@1 + 1@2 files => 39782 bytes
+2026/11/20-01:00:25.011 1078 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/20-01:00:25.012 1078 Delete type=2 #5
+2026/11/20-01:00:25.012 1078 Delete type=2 #8
+2026/11/20-01:00:25.012 1078 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 1043 : 1 .. (end); will stop at (end)

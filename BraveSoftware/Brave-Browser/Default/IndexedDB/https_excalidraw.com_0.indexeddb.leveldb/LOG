@@ -1,0 +1,15 @@
+2026/09/29-17:24:08.379 c86 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_excalidraw.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/29-17:24:08.379 c86 Recovering log #4
+2026/09/29-17:24:08.379 c86 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_excalidraw.com_0.indexeddb.leveldb/000004.log 
+2026/09/29-17:24:13.448 c87 Level-0 table #8: started
+2026/09/29-17:24:13.450 c87 Level-0 table #8: 7218 bytes OK
+2026/09/29-17:24:13.452 c87 Delete type=0 #4
+2026/09/29-17:24:13.452 c87 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/09/29-17:24:13.452 c87 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01 \x03\x00P@\xb9\xf7\x0ezB\x00\x01c\x00f\x00o\x00n\x00t\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00e\x00x\x00c\x00a\x00l\x00i\x00d\x00r\x00a\x00w\x00.\x00n\x00y\x00c\x003\x00.\x00c\x00d\x00n\x00.\x00d\x00i\x00g\x00i\x00t\x00a\x00l\x00o\x00c\x00e\x00a\x00n\x00s\x00p\x00a\x00c\x00e\x00s\x00.\x00c\x00o\x00m\x00/\x00o\x00s\x00s\x00/\x00f\x00o\x00n\x00t\x00s\x00/\x00A\x00s\x00s\x00i\x00s\x00t\x00a\x00n\x00t\x00/\x00A\x00s\x00s\x00i\x00s\x00t\x00a\x00n\x00t\x00-\x00M\x00e\x00d\x00i\x00u\x00m\x00.\x00w\x00o\x00f\x00f\x002' @ 311 : 1
+2026/09/29-17:24:13.452 c87 Compacting 1@1 + 1@2 files
+2026/09/29-17:24:13.453 c87 Generated table #9@1: 94 keys, 4603 bytes
+2026/09/29-17:24:13.453 c87 Compacted 1@1 + 1@2 files => 4603 bytes
+2026/09/29-17:24:13.454 c87 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/09/29-17:24:13.455 c87 Delete type=2 #5
+2026/09/29-17:24:13.455 c87 Delete type=2 #8
+2026/09/29-17:24:13.455 c87 Manual compaction at level-1 from '\x00\x04\x01 \x03\x00P@\xb9\xf7\x0ezB\x00\x01c\x00f\x00o\x00n\x00t\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00e\x00x\x00c\x00a\x00l\x00i\x00d\x00r\x00a\x00w\x00.\x00n\x00y\x00c\x003\x00.\x00c\x00d\x00n\x00.\x00d\x00i\x00g\x00i\x00t\x00a\x00l\x00o\x00c\x00e\x00a\x00n\x00s\x00p\x00a\x00c\x00e\x00s\x00.\x00c\x00o\x00m\x00/\x00o\x00s\x00s\x00/\x00f\x00o\x00n\x00t\x00s\x00/\x00A\x00s\x00s\x00i\x00s\x00t\x00a\x00n\x00t\x00/\x00A\x00s\x00s\x00i\x00s\x00t\x00a\x00n\x00t\x00-\x00M\x00e\x00d\x00i\x00u\x00m\x00.\x00w\x00o\x00f\x00f\x002' @ 311 : 1 .. (end); will stop at (end)

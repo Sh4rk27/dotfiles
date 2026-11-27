@@ -1,0 +1,18 @@
+{
+  "SettingsVersion": "10",
+  "DebugMode": "False",
+  "LegacyConversionMode": "1",
+  "FolderOperationMode": "1",
+  "ThisVersion": "3.1.6.0",
+  "ThumbprintSalt": "{\n  \"salt\": \"DX/3Gd6asNqFw7bbJm5KX/lV6p0F+nGZBg068kYR3WmbUgx3zKEMCLaUNXyM0SA0HUpw/O4RednlU3V7ExUYzg==\"\n}",
+  "2b0ccbb0b9784bc3a293f97585f06557": "117900",
+  "UserEmail": "ricardowelcomme@hotmail.com",
+  "DisplayEncryptPassphrase": "True",
+  "IsFirstSignIn": "False",
+  "LastUpdateCheckUtc": "08/26/2026 18:02:23",
+  "NewestKnownVersion": "3.1.6.2",
+  "UpdateUrl": "https://www.axcrypt.net/betadownload/",
+  "UpdateLevel": "0",
+  "MostRecentVersionInformed": "3.1.6.2",
+  "EntitlementHashKey": "55b946878fb37bdcf406210651e67732fd7a0741bdd490db81cfebdb1c2988fb"
+}

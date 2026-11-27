@@ -1,0 +1,37 @@
+{
+	"appWindowState": {
+		"maximized": false,
+		"fullscreen": false,
+		"bounds": {
+			"x": 1932,
+			"y": 50,
+			"width": 1892,
+			"height": 1134
+		}
+	},
+	"enableSecurityFileWrite": true,
+	"defaultMail": {
+		"alwaysCheck": true
+	},
+	"appUpdater": {
+		"autoCheck": true,
+		"autoUpdateErrorCount": 0
+	},
+	"oneTimeMessages": {
+		"publicSystems": 1
+	},
+	"spellcheck": true,
+	"viewMenu": {
+		"notificationBadge": true,
+		"searchEngine": "Google"
+	},
+	"enableAccountSwitchShortcut": true,
+	"disableGPU": false,
+	"systemTray": true,
+	"preferredDC": "zoho",
+	"warnBeforeQuit": true,
+	"downloadPreferences": {
+		"folderPath": "/home/darkness",
+		"askMeDownload": true
+	}
+}

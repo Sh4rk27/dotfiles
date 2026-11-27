@@ -1,0 +1,7 @@
+2026/08/04-09:06:45.757 280c9d Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_workdrive.zoho.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/04-09:06:45.758 280c9d Recovering log #6
+2026/08/04-09:06:45.758 280c9d Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_workdrive.zoho.com_0.indexeddb.leveldb/000006.log 
+2026/08/04-09:06:45.774 280c9d Level-0 table #11: started
+2026/08/04-09:06:45.776 280c9d Level-0 table #11: 1257 bytes OK
+2026/08/04-09:06:45.777 280c9d Delete type=0 #6
+2026/08/04-09:06:45.777 280c9d Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

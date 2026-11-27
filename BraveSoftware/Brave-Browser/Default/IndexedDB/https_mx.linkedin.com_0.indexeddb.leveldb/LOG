@@ -1,0 +1,6 @@
+2026/08/05-13:18:30.267 280ca8 Creating DB /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mx.linkedin.com_0.indexeddb.leveldb since it was missing.
+2026/08/05-13:18:30.271 280ca8 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mx.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/08/05-13:18:34.114 280c9d Level-0 table #5: started
+2026/08/05-13:18:34.116 280c9d Level-0 table #5: 1251 bytes OK
+2026/08/05-13:18:34.118 280c9d Delete type=0 #3
+2026/08/05-13:18:34.118 280c9d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,16 @@
+2026/09/30-08:16:25.740 c86 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_keymaxcommx-my.sharepoint.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/09/30-08:16:25.741 c86 Recovering log #27
+2026/09/30-08:16:25.750 c86 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_keymaxcommx-my.sharepoint.com_0.indexeddb.leveldb/000027.log 
+2026/09/30-08:16:27.614 c87 Level-0 table #33: started
+2026/09/30-08:16:27.648 c87 Level-0 table #33: 2503096 bytes OK
+2026/09/30-08:16:27.649 c87 Delete type=0 #27
+2026/09/30-08:16:27.764 c86 Compacting 1@1 + 4@2 files
+2026/09/30-08:16:27.785 c86 Generated table #34@1: 4094 keys, 2140818 bytes
+2026/09/30-08:16:27.792 c86 Generated table #35@1: 645 keys, 1150303 bytes
+2026/09/30-08:16:27.792 c86 Compacted 1@1 + 4@2 files => 3291121 bytes
+2026/09/30-08:16:27.793 c86 compacted to: files[ 0 0 2 0 0 0 0 ]
+2026/09/30-08:16:27.793 c86 Delete type=2 #33
+2026/09/30-08:16:27.794 c86 Delete type=2 #20
+2026/09/30-08:16:27.794 c86 Delete type=2 #13
+2026/09/30-08:16:27.794 c86 Delete type=2 #30
+2026/09/30-08:16:27.794 c86 Delete type=2 #29

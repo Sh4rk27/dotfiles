@@ -1,0 +1,10 @@
+[
+  {
+    "active": true,
+    "userEmail": "ricardowelcomme@hotmail.com",
+    "basePath": "/home/darkness/.config/AxCrypt/cphudupa/",
+    "subsType": "Free",
+    "lastLogOnUtc": "2026-08-26T18:02:21.8147502Z",
+    "lastUpdateUtc": "2026-08-26T18:02:21.8147502Z"
+  }
+]

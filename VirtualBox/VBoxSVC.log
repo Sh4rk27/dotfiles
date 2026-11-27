@@ -1,0 +1,48 @@
+00:00:00.000376 main     VirtualBox XPCOM Server 7.1.18 r173720 linux.amd64 (Apr 20 2026 11:21:42) release log
+00:00:00.000383 main     Log opened 2026-08-12T15:10:28.528790000Z
+00:00:00.000384 main     Build Type: release
+00:00:00.000389 main     OS Product: Linux
+00:00:00.000391 main     OS Release: 6.17.0-40-generic
+00:00:00.000392 main     OS Version: #40~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Jun 23 16:48:12 UTC 2
+00:00:00.000442 main     DMI Product Name: 21HE0013LM
+00:00:00.000458 main     DMI Product Version: ThinkPad T14 Gen 4
+00:00:00.000470 main     Firmware type: UEFI
+00:00:00.001191 main     Secure Boot: Disabled
+00:00:00.001264 main     Host RAM: 15653MB (15.2GB) total, 6963MB (6.7GB) available
+00:00:00.001269 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.001270 main     Process ID: 2021040
+00:00:00.001270 main     Package type: LINUX_64BITS_UBUNTU_24_04
+00:00:00.005266 main     IPC socket path: /tmp/.vbox-darkness-ipc/ipcd
+00:00:00.018866 DCon01   VirtualBox: object creation starts
+00:00:00.018994 DCon01   Home directory: '/home/darkness/.config/VirtualBox'
+00:00:00.019228 DCon01   Loading settings file "/home/darkness/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.035694 DCon01   Failed to retrive disk info: getDiskName(/dev/mapper/vgmint-root) --> vgmint-root
+00:00:00.050406 DCon01   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlp0s20f3: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.051641 DCon01   HostDnsMonitor: initializing
+00:00:00.052040 DCon01   NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.052059 DCon01   NAT: resolv.conf: ignoring "options edns0 trust-ad"
+00:00:00.052079 DCon01   HostDnsMonitor: updating information
+00:00:00.052099 DCon01   HostDnsMonitor: old information
+00:00:00.052104 DCon01     no server entries
+00:00:00.052107 DCon01     no domain set
+00:00:00.052110 DCon01     no search string entries
+00:00:00.052113 DCon01   HostDnsMonitor: new information
+00:00:00.052116 DCon01     server 1: 127.0.0.53
+00:00:00.052120 DCon01     domain: .
+00:00:00.052123 DCon01     search string 1: .
+00:00:00.056040 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.058111 DCon01   VirtualBox: object created
+00:00:00.587040 DCon11   Saving settings file "/home/darkness/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.594503 DCon11   Finished saving settings file "/home/darkness/.config/VirtualBox/VirtualBox.xml"
+00:00:00.594771 DCon11   Saving settings file "/home/darkness/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.596019 DCon11   Finished saving settings file "/home/darkness/.config/VirtualBox/VirtualBox.xml"
+00:00:00.596291 DCon11   Saving settings file "/home/darkness/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.597521 DCon11   Finished saving settings file "/home/darkness/.config/VirtualBox/VirtualBox.xml"
+00:00:00.710934 DCon11   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={d5dcece0-b202-4416-a138-03502784cc07} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=false aResultDetail=0
+00:00:01.135681 DCon11   Saving settings file "/home/darkness/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.143610 DCon11   Finished saving settings file "/home/darkness/.config/VirtualBox/VirtualBox.xml"
+00:00:18.696255 main     VirtualBox: object deletion starts
+00:00:18.696984 main     HostDnsMonitor: shutting down ...
+00:00:18.697561 main     HostDnsMonitor: shut down
+00:00:18.708891 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:00:18.709014 main     VirtualBox: object deleted

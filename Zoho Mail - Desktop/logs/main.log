@@ -1,0 +1,1578 @@
+[2026-07-29 16:43:42.925] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-07-29 16:43:42.926] [info]  [
+  '{"appWindowState":{"maximized":true,"fullscreen":false,"bounds":"auto"},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":0},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-07-29 16:43:42.927] [info]  [ 'preference clear-security' ]
+[2026-07-29 16:43:42.929] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-07-29 16:43:42.987] [info]  [ 'Starting app life cycle' ]
+[2026-07-29 16:43:43.081] [info]  [
+  '[base-window] redirect-request',
+  'file:///opt/Zoho%20Mail%20-%20Desktop/resources/app.asar/app/window/privacyInformation/index.html'
+]
+[2026-07-29 16:43:57.883] [info]  [ 'preference update-oneTimeMessages-{"publicSystems":1}' ]
+[2026-07-29 16:43:57.892] [info]  [ 'Starting app life cycle' ]
+[2026-07-29 16:43:57.893] [info]  [ 'Clearing dead sessions' ]
+[2026-07-29 16:43:57.921] [info]  [ 'Close Window', 'privacy-window' ]
+[2026-07-29 16:43:57.983] [info]  [ 'login screen loaded' ]
+[2026-07-29 16:43:57.984] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'file:///opt/Zoho%20Mail%20-%20Desktop/resources/app.asar/app/window/login-window/landing.html'
+]
+[2026-07-29 16:43:57.988] [info]  [
+  '[base-window] redirect-request',
+  'file:///opt/Zoho%20Mail%20-%20Desktop/resources/app.asar/app/window/login-window/landing.html'
+]
+[2026-07-29 16:43:58.113] [info]  [ 'login screen loaded' ]
+[2026-07-29 16:44:02.938] [info]  [ 'All windows are closed' ]
+[2026-07-29 16:44:02.939] [info]  [ 'APP Switching on progress - ', false ]
+[2026-07-29 16:44:02.939] [info]  [ 'Delete Without Mail Account - No discrepancy found' ]
+[2026-07-29 16:44:09.796] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-07-29 16:44:09.799] [info]  [
+  '{"appWindowState":{"maximized":true,"fullscreen":false,"bounds":"auto"},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-07-29 16:44:09.800] [info]  [ 'preference clear-security' ]
+[2026-07-29 16:44:09.809] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-07-29 16:44:09.898] [info]  [ 'Starting app life cycle' ]
+[2026-07-29 16:44:09.899] [info]  [ 'Clearing dead sessions' ]
+[2026-07-29 16:44:10.026] [info]  [ 'login screen loaded' ]
+[2026-07-29 16:44:10.027] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'file:///opt/Zoho%20Mail%20-%20Desktop/resources/app.asar/app/window/login-window/landing.html'
+]
+[2026-07-29 16:44:10.028] [info]  [
+  '[base-window] redirect-request',
+  'file:///opt/Zoho%20Mail%20-%20Desktop/resources/app.asar/app/window/login-window/landing.html'
+]
+[2026-07-29 16:44:10.142] [info]  [ 'login screen loaded' ]
+[2026-07-29 16:44:14.964] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":12,"width":1892,"height":1172}}'
+]
+[2026-07-29 16:44:37.489] [info]  [ 'login screen loaded' ]
+[2026-07-29 16:44:37.489] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'file:///opt/Zoho%20Mail%20-%20Desktop/resources/app.asar/app/window/login-window/landing.html'
+]
+[2026-07-29 16:44:37.490] [info]  [
+  '[base-window] redirect-request',
+  'file:///opt/Zoho%20Mail%20-%20Desktop/resources/app.asar/app/window/login-window/landing.html'
+]
+[2026-07-29 16:44:37.529] [info]  [ 'login screen loaded' ]
+[2026-07-29 16:44:55.768] [info]  [ 'login screen loaded' ]
+[2026-07-29 16:44:55.769] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true'
+]
+[2026-07-29 16:44:55.769] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true'
+]
+[2026-07-29 16:45:19.695] [info]  [ 'login screen loaded' ]
+[2026-07-29 16:45:25.274] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":12,"width":976,"height":1172}}'
+]
+[2026-07-29 16:45:47.747] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":12,"width":1892,"height":1172}}'
+]
+[2026-07-29 18:03:44.872] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1099}}'
+]
+[2026-07-29 18:19:44.520] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-07-29 18:42:50.740] [info]  [ 'login screen loaded' ]
+[2026-07-29 18:42:50.740] [info]  [
+  'loginWindow',
+  'will-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true'
+]
+[2026-07-29 18:42:51.171] [info]  [ 'login screen loaded' ]
+[2026-07-29 18:42:51.172] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true'
+]
+[2026-07-29 18:42:51.173] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true'
+]
+[2026-07-29 18:42:52.008] [info]  [ 'login screen loaded' ]
+[2026-07-29 18:43:06.702] [info]  [ 'login screen loaded' ]
+[2026-07-29 18:43:06.703] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-07-29 18:43:06.719] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-07-29 18:43:06.764] [info]  [ 'No zmcsr found, triggering blank jsp to create zmcsr cookie' ]
+[2026-07-29 18:43:06.774] [info]  [ 'Close Window', 'login' ]
+[2026-07-29 18:43:06.776] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-07-29 18:43:06.777] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-07-29 18:43:06.777] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-07-29 18:43:11.832] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-07-29 18:43:23.494] [info]  [ 'Blank Jsp zmcsr loaded successfully' ]
+[2026-07-29 18:43:23.496] [info]  [ 'zmcsr found, proceeding to fetch accounts' ]
+[2026-07-29 18:43:23.696] [info]  [ 'Accounts fetched successfully' ]
+[2026-07-29 18:43:23.707] [info]  [
+  'Session updated with emailId: rmachuca@intecfra.com, dispName: Ricardo Daniel'
+]
+[2026-07-29 18:43:24.481] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-07-29 18:43:24.482] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-07-29 18:43:52.065] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-07-29 18:43:52.066] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-07-29 18:43:53.175] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-07-29 18:43:53.175] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-07-29 18:44:15.534] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-07-29 18:44:15.535] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-07-29 18:46:48.978] [info]  [ 'app window is ready for processing' ]
+[2026-07-30 08:03:46.031] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-07-30 08:16:52.142] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-07-31 11:03:28.118] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":57,"width":1892,"height":1127}}'
+]
+[2026-07-31 11:48:30.390] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":57,"width":1892,"height":1127}}'
+]
+[2026-07-31 11:57:01.262] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":57,"width":1892,"height":1127}}'
+]
+[2026-07-31 13:39:28.548] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":57,"width":1892,"height":1127}}'
+]
+[2026-07-31 13:57:15.072] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-02 12:05:49.904] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F'
+]
+[2026-08-02 12:05:50.025] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-08-02 12:05:50.468] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-08-02 12:05:50.469] [info]  [ 'account is not logged in - opening account window' ]
+[2026-08-02 12:05:53.084] [info]  [ 'Close Window', 'app' ]
+[2026-08-02 12:05:53.422] [info]  [ 'login screen loaded' ]
+[2026-08-02 12:05:53.423] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-02 12:05:53.424] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-02 12:05:53.788] [info]  [ 'login screen loaded' ]
+[2026-08-02 12:05:58.090] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-02 12:05:58.244] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-02 12:06:08.607] [info]  [ 'login screen loaded' ]
+[2026-08-02 12:06:08.607] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-02 12:06:08.610] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-08-02 12:06:08.611] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-08-02 12:06:08.611] [info]  [ 'Close Window', 'app' ]
+[2026-08-02 12:06:08.675] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-08-02 12:06:08.676] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-08-02 12:06:08.676] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-08-02 12:06:08.680] [info]  [ 'Close Window', 'login' ]
+[2026-08-02 12:06:09.863] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-02 12:06:09.863] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-08-02 12:06:12.316] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-02 12:06:12.316] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-02 12:06:12.714] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-02 12:06:12.715] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-02 12:06:12.804] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-02 12:06:12.804] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-02 12:06:13.804] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-02 12:06:15.903] [info]  [ 'app window is ready for processing' ]
+[2026-08-03 12:05:40.221] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-04 08:00:55.188] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-05 13:20:58.498] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-05 13:20:58.505] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-08-05 13:20:58.654] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-05 13:20:58.655] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-05 13:20:58.778] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-05 13:20:58.778] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-05 13:20:59.416] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-05 13:20:59.417] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-05 13:20:59.923] [info]  [ 'app window is ready for processing' ]
+[2026-08-07 08:08:59.359] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-08-07 08:08:59.361] [info]  [
+  '{"appWindowState":{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-08-07 08:08:59.362] [info]  [ 'preference clear-security' ]
+[2026-08-07 08:08:59.365] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-08-07 08:08:59.491] [info]  [ 'Starting app life cycle' ]
+[2026-08-07 08:08:59.491] [info]  [ 'Clearing dead sessions' ]
+[2026-08-07 08:08:59.624] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-08-07 08:08:59.624] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-08-07 08:08:59.624] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-08-07 08:09:01.970] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-07 08:09:01.971] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-08-07 08:09:05.136] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-07 08:09:05.136] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-07 08:09:05.533] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-07 08:09:05.534] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-07 08:09:05.716] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":976,"height":1134}}'
+]
+[2026-08-07 08:09:07.063] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-07 08:09:07.063] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-07 08:09:11.671] [info]  [ 'app window is ready for processing' ]
+[2026-08-07 08:11:10.755] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-10 12:59:47.312] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-11 08:04:20.222] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-11 08:28:33.689] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/folder/spam/p/1786132671067141500'
+]
+[2026-08-11 08:28:33.690] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/folder/spam/p/1786132671067141500'
+]
+[2026-08-11 08:28:33.807] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F#mail/folder/spam/p/1786132671067141500'
+]
+[2026-08-11 08:28:33.908] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/folder/spam/p/1786132671067141500'
+]
+[2026-08-11 08:28:34.385] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/folder/spam/p/1786132671067141500'
+]
+[2026-08-11 08:28:34.387] [info]  [ 'account is not logged in - opening account window' ]
+[2026-08-11 08:28:36.199] [info]  [ 'Close Window', 'app' ]
+[2026-08-11 08:28:36.735] [info]  [ 'login screen loaded' ]
+[2026-08-11 08:28:36.735] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-11 08:28:36.744] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-11 08:28:37.849] [info]  [ 'login screen loaded' ]
+[2026-08-11 08:28:41.203] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-11 08:28:41.382] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-11 08:28:51.865] [info]  [ 'login screen loaded' ]
+[2026-08-11 08:28:51.865] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-11 08:28:51.867] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-08-11 08:28:51.869] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-08-11 08:28:51.871] [info]  [ 'Close Window', 'app' ]
+[2026-08-11 08:28:51.936] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-08-11 08:28:51.936] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-08-11 08:28:51.936] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-08-11 08:28:51.940] [info]  [ 'Close Window', 'login' ]
+[2026-08-11 08:28:52.919] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-11 08:28:52.919] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-08-11 08:28:53.193] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-11 08:28:53.194] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-11 08:28:53.419] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-11 08:28:53.419] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-11 08:28:53.796] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-11 08:28:53.796] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-11 08:28:55.957] [info]  [ 'app window is ready for processing' ]
+[2026-08-11 08:28:57.046] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-12 13:04:09.688] [info]  [
+  '[app-window]:new-window',
+  'https://www.linkedin.com/comm/search/results/people/?facetNetwork=%5B%22F%22%5D&facetConnectionOf=%5B%22ADoAACbAahoBF7-gIMh747HEJIxFfro6ZNyB3NE%22%5D&origin=SHARED_CONNECTIONS_CANNED_SEARCH&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BI3w%2BAKzyRiGH9Z0ndw%2FD%2BA%3D%3D&midToken=AQEWOY95v_EiUA&midSig=0Air7oE7QOmco1&trk=eml-email_m2m_invite_single_01-connections_in_common-0-view_connections_text&trkEmail=eml-email_m2m_invite_single_01-connections_in_common-0-view_connections_text-null-9g8krs~msqcxooj~85-null-null&eid=9g8krs-msqcxooj-85&otpToken=NGFiY2EyMGYzYjMxNjE3MjY3NDFkNjE0ZjJiZTljNjVmOTQ3YzFiODc2YWI2YzViZjk5OGI1YmE2NjYzMmE4ZjkwYWI0YzIyZjdjOTc0OWM3OTBlMmQ5MDBjNzI5ZTI3OWE4MTg2NDNlZGEzZTY3NTNkN2M1M2FiYzgyMGJhMTIzY2E3YjU0OTAxZWJiZCwyLDE%3D',
+  '',
+  'background-tab'
+]
+[2026-08-12 13:04:20.076] [info]  [
+  '[app-window]:new-window',
+  'https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/7493333815986139136/sharedKey/MRb88Q73/?inviterVanityName=adrianyepiz&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BI3w%2BAKzyRiGH9Z0ndw%2FD%2BA%3D%3D&midToken=AQEWOY95v_EiUA&midSig=0Air7oE7QOmco1&trk=eml-email_m2m_invite_single_01-invitation~card-0-accept~invite&trkEmail=eml-email_m2m_invite_single_01-invitation~card-0-accept~invite-null-9g8krs~msqcxooj~85-null-null&eid=9g8krs-msqcxooj-85&otpToken=NGFiY2EyMGYzYjMxNjE3MjY3NDFkNjE0ZjJiZTljNjVmOTQ3YzFiODc2YWI2YzViZjk5OGI1YmE2NjYzMmE4ZjkwYWI0YzIyZjdjOTc0OWM3OTBlMmQ5MDBjNzI5ZTI3OWE4MTg2NDNlZGEzZTY3NTNkN2M1M2FiYzgyMGJhMTIzY2E3YjU0OTAxZWJiZCwyLDE%3D',
+  '',
+  'foreground-tab'
+]
+[2026-08-14 07:04:26.214] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-18 03:09:34.109] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-18 03:09:34.110] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-08-18 03:09:36.305] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-18 03:09:36.305] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-18 03:09:36.685] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-18 03:09:36.686] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-18 03:09:36.763] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-18 03:09:36.763] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-18 03:09:38.669] [info]  [ 'app window is ready for processing' ]
+[2026-08-18 07:35:11.286] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-21 07:30:08.194] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-21 20:30:59.850] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-21 21:18:28.785] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-25 08:05:49.374] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-25 08:27:31.585] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F'
+]
+[2026-08-25 08:27:31.694] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-08-25 08:27:32.219] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-08-25 08:27:32.219] [info]  [ 'account is not logged in - opening account window' ]
+[2026-08-25 08:27:34.737] [info]  [ 'Close Window', 'app' ]
+[2026-08-25 08:27:35.088] [info]  [ 'login screen loaded' ]
+[2026-08-25 08:27:35.088] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-25 08:27:35.088] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-25 08:27:36.013] [info]  [ 'login screen loaded' ]
+[2026-08-25 08:27:39.743] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-25 08:27:39.930] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-25 08:27:57.432] [info]  [ 'login screen loaded' ]
+[2026-08-25 08:27:57.434] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-25 08:27:57.438] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-08-25 08:27:57.440] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-08-25 08:27:57.441] [info]  [ 'Close Window', 'app' ]
+[2026-08-25 08:27:57.503] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-08-25 08:27:57.503] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-08-25 08:27:57.503] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-08-25 08:27:57.507] [info]  [ 'Close Window', 'login' ]
+[2026-08-25 08:27:58.640] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-25 08:27:58.641] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-08-25 08:28:02.084] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-25 08:28:02.084] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-25 08:28:02.482] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-25 08:28:02.483] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-25 08:28:02.523] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-25 08:28:02.524] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-25 08:28:02.621] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-25 08:31:56.732] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-25 08:31:56.732] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-08-25 08:31:56.877] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-25 08:31:56.877] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-25 08:31:57.034] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-25 08:31:57.035] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-25 08:31:57.270] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-25 08:31:57.271] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-25 08:31:59.962] [info]  [ 'app window is ready for processing' ]
+[2026-08-31 20:05:59.542] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F'
+]
+[2026-08-31 20:05:59.681] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-08-31 20:06:00.208] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-08-31 20:06:00.209] [info]  [ 'account is not logged in - opening account window' ]
+[2026-08-31 20:06:02.057] [info]  [ 'Close Window', 'app' ]
+[2026-08-31 20:06:02.436] [info]  [ 'login screen loaded' ]
+[2026-08-31 20:06:02.437] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-31 20:06:02.438] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-31 20:06:03.347] [info]  [ 'login screen loaded' ]
+[2026-08-31 20:06:07.061] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-31 20:06:07.207] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-31 20:13:35.295] [info]  [ 'All windows are closed' ]
+[2026-08-31 20:13:35.297] [info]  [ 'APP Switching on progress - ', false ]
+[2026-08-31 20:13:35.305] [info]  [ 'Delete Without Mail Account - Start' ]
+[2026-08-31 20:13:35.306] [info]  [ 'Delete Without Mail Account - No discrepancy found' ]
+[2026-08-31 20:13:35.306] [info]  [ 'Close Window', 'app' ]
+[2026-08-31 20:13:39.842] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-08-31 20:13:39.845] [info]  [
+  '{"appWindowState":{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-08-31 20:13:39.848] [info]  [ 'preference clear-security' ]
+[2026-08-31 20:13:39.852] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-08-31 20:13:40.009] [info]  [ 'Starting app life cycle' ]
+[2026-08-31 20:13:40.009] [info]  [ 'Clearing dead sessions' ]
+[2026-08-31 20:13:40.172] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-08-31 20:13:40.173] [info]  [ 'app-window', 'AUTHMissing' ]
+[2026-08-31 20:13:40.702] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F'
+]
+[2026-08-31 20:13:40.859] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-08-31 20:13:41.381] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-08-31 20:13:41.382] [info]  [ 'account is not logged in - opening account window' ]
+[2026-08-31 20:13:43.823] [info]  [ 'Close Window', 'app' ]
+[2026-08-31 20:13:44.256] [info]  [ 'login screen loaded' ]
+[2026-08-31 20:13:44.256] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-31 20:13:44.262] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-31 20:13:44.822] [info]  [ 'login screen loaded' ]
+[2026-08-31 20:13:48.829] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-31 20:13:48.953] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-31 20:15:48.588] [info]  [ 'login screen loaded' ]
+[2026-08-31 20:15:48.588] [info]  [
+  'loginWindow',
+  'will-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-31 20:15:48.862] [info]  [ 'login screen loaded' ]
+[2026-08-31 20:15:48.862] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-31 20:15:48.863] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-08-31 20:15:49.106] [info]  [ 'login screen loaded' ]
+[2026-08-31 20:16:10.003] [info]  [ 'login screen loaded' ]
+[2026-08-31 20:16:10.003] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-31 20:16:10.006] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-08-31 20:16:10.007] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-08-31 20:16:10.008] [info]  [ 'Close Window', 'app' ]
+[2026-08-31 20:16:10.047] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-08-31 20:16:10.047] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-08-31 20:16:10.047] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-08-31 20:16:10.051] [info]  [ 'Close Window', 'login' ]
+[2026-08-31 20:16:11.332] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-31 20:16:11.333] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-08-31 20:16:13.070] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-31 20:16:13.072] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-31 20:16:13.524] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-31 20:16:13.525] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-31 20:16:14.166] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-31 20:16:14.167] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-31 20:16:15.120] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-08-31 20:16:20.444] [info]  [ 'app window is ready for processing' ]
+[2026-08-31 20:18:47.465] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-08-31 20:18:47.466] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-08-31 20:18:47.641] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-31 20:18:47.641] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-31 20:18:48.093] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-31 20:18:48.094] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-31 20:18:48.107] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-08-31 20:18:48.107] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-08-31 20:18:50.250] [info]  [ 'app window is ready for processing' ]
+[2026-09-03 20:16:29.834] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-09-03 20:16:29.838] [info]  [
+  '{"appWindowState":{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-09-03 20:16:29.840] [info]  [ 'preference clear-security' ]
+[2026-09-03 20:16:29.844] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-09-03 20:16:30.030] [info]  [ 'Starting app life cycle' ]
+[2026-09-03 20:16:30.031] [info]  [ 'Clearing dead sessions' ]
+[2026-09-03 20:16:30.218] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-09-03 20:16:30.219] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-09-03 20:16:30.219] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-09-03 20:16:31.633] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-03 20:16:31.634] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-03 20:16:33.645] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-03 20:16:33.646] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-03 20:16:34.057] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-03 20:16:34.057] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-03 20:16:34.187] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-03 20:16:34.188] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-03 20:16:37.803] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":976,"height":1134}}'
+]
+[2026-09-03 20:17:30.219] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-03 20:18:12.819] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":976,"height":1134}}'
+]
+[2026-09-03 20:18:20.376] [info]  [ 'All windows are closed' ]
+[2026-09-03 20:18:20.376] [info]  [ 'APP Switching on progress - ', false ]
+[2026-09-03 20:18:20.378] [info]  [ 'Delete Without Mail Account - Start' ]
+[2026-09-03 20:18:20.378] [info]  [ 'Delete Without Mail Account - No discrepancy found' ]
+[2026-09-03 20:18:20.379] [info]  [ 'Close Window', 'app' ]
+[2026-09-03 20:18:25.773] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-09-03 20:18:25.777] [info]  [
+  '{"appWindowState":{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":976,"height":1134}},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-09-03 20:18:25.779] [info]  [ 'preference clear-security' ]
+[2026-09-03 20:18:25.783] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-09-03 20:18:25.886] [info]  [ 'Starting app life cycle' ]
+[2026-09-03 20:18:25.886] [info]  [ 'Clearing dead sessions' ]
+[2026-09-03 20:18:26.052] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-09-03 20:18:26.053] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-09-03 20:18:26.053] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-09-03 20:18:26.823] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-03 20:18:26.823] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-03 20:18:27.125] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-03 20:18:27.126] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-03 20:18:27.610] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-03 20:18:27.611] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-03 20:18:27.667] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-03 20:18:27.668] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-03 20:18:30.231] [info]  [ 'app window is ready for processing' ]
+[2026-09-03 20:18:31.065] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-07 07:58:34.582] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#settings/groups'
+]
+[2026-09-07 07:58:34.583] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#settings/groups'
+]
+[2026-09-07 07:58:34.587] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#settings/groups'
+]
+[2026-09-07 07:58:34.587] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#settings/groups'
+]
+[2026-09-07 07:58:34.819] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F#settings/groups'
+]
+[2026-09-07 07:58:34.927] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#settings/groups'
+]
+[2026-09-07 07:58:35.382] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#settings/groups'
+]
+[2026-09-07 07:58:35.383] [info]  [ 'account is not logged in - opening account window' ]
+[2026-09-07 07:58:37.346] [info]  [ 'Close Window', 'app' ]
+[2026-09-07 07:58:37.642] [info]  [ 'login screen loaded' ]
+[2026-09-07 07:58:37.642] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-09-07 07:58:37.654] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-09-07 07:58:38.633] [info]  [ 'login screen loaded' ]
+[2026-09-07 07:58:42.351] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-07 07:58:42.454] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-07 07:58:43.754] [info]  [ 'login screen loaded' ]
+[2026-09-07 07:58:43.755] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-07 07:58:43.758] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-09-07 07:58:43.760] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-09-07 07:58:43.760] [info]  [ 'Close Window', 'app' ]
+[2026-09-07 07:58:43.796] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-09-07 07:58:43.796] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-09-07 07:58:43.796] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-09-07 07:58:43.798] [info]  [ 'Close Window', 'login' ]
+[2026-09-07 07:58:44.782] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-07 07:58:44.782] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-07 07:58:48.459] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-07 07:58:48.460] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-07 07:58:48.841] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-07 07:58:48.917] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-07 07:58:48.917] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-07 07:58:50.809] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-07 07:58:50.809] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-07 07:58:55.645] [info]  [ 'app window is ready for processing' ]
+[2026-09-07 16:14:26.713] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-07 17:54:41.410] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-07 21:14:59.939] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-11 11:54:06.117] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-14 11:00:00.274] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-09-14 11:00:00.277] [info]  [
+  '{"appWindowState":{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-09-14 11:00:00.278] [info]  [ 'preference clear-security' ]
+[2026-09-14 11:00:00.281] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-09-14 11:00:00.411] [info]  [ 'Starting app life cycle' ]
+[2026-09-14 11:00:00.412] [info]  [ 'Clearing dead sessions' ]
+[2026-09-14 11:00:00.549] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-09-14 11:00:00.549] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-09-14 11:00:00.549] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-09-14 11:00:01.982] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-14 11:00:01.982] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-14 11:00:03.556] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-14 11:00:03.556] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-14 11:00:03.941] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-14 11:00:03.941] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-14 11:00:05.483] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-14 11:00:05.483] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-14 11:00:05.653] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1004,"y":648,"width":460,"height":536}}'
+]
+[2026-09-14 11:00:15.846] [info]  [ 'app window is ready for processing' ]
+[2026-09-14 11:00:27.988] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-17 16:14:12.918] [info]  [ 'All windows are closed' ]
+[2026-09-17 16:14:12.919] [info]  [ 'APP Switching on progress - ', false ]
+[2026-09-17 16:14:12.920] [info]  [ 'Delete Without Mail Account - Start' ]
+[2026-09-17 16:14:12.920] [info]  [ 'Delete Without Mail Account - No discrepancy found' ]
+[2026-09-17 16:14:12.920] [info]  [ 'Close Window', 'app' ]
+[2026-09-17 16:14:18.783] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-09-17 16:14:18.785] [info]  [
+  '{"appWindowState":{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-09-17 16:14:18.787] [info]  [ 'preference clear-security' ]
+[2026-09-17 16:14:18.795] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-09-17 16:14:18.911] [info]  [ 'Starting app life cycle' ]
+[2026-09-17 16:14:18.911] [info]  [ 'Clearing dead sessions' ]
+[2026-09-17 16:14:19.012] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-09-17 16:14:19.013] [info]  [ 'app-window', 'AUTHMissing' ]
+[2026-09-17 16:14:21.526] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F'
+]
+[2026-09-17 16:14:21.672] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-09-17 16:14:24.019] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-17 16:14:24.457] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-09-17 16:14:24.458] [info]  [ 'account is not logged in - opening account window' ]
+[2026-09-17 16:14:26.514] [info]  [ 'Close Window', 'app' ]
+[2026-09-17 16:14:27.653] [info]  [ 'login screen loaded' ]
+[2026-09-17 16:14:27.653] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-09-17 16:14:27.659] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-09-17 16:14:31.492] [info]  [ 'login screen loaded' ]
+[2026-09-17 16:14:31.516] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-17 16:14:31.642] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-17 16:14:57.561] [info]  [ 'login screen loaded' ]
+[2026-09-17 16:14:57.562] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-17 16:14:57.566] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-09-17 16:14:57.567] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-09-17 16:14:57.568] [info]  [ 'Close Window', 'app' ]
+[2026-09-17 16:14:57.616] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-09-17 16:14:57.627] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-09-17 16:14:57.627] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-09-17 16:14:57.631] [info]  [ 'Close Window', 'login' ]
+[2026-09-17 16:14:59.073] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-17 16:14:59.074] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-17 16:15:02.705] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-17 16:15:02.731] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-17 16:15:02.731] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-17 16:15:04.944] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-17 16:15:04.945] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-17 16:15:06.690] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-17 16:15:06.690] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-17 16:15:25.739] [info]  [ 'app window is ready for processing' ]
+[2026-09-18 12:36:05.482] [info]  [
+  '[app-window]:new-window',
+  'https://meet.zoho.com/lukc-goa-nvc',
+  '',
+  'foreground-tab'
+]
+[2026-09-21 09:13:28.876] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-21 09:42:23.349] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-21 12:06:01.664] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-09-21 12:06:01.664] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-09-21 12:06:01.676] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-09-21 12:06:01.677] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-09-21 12:06:01.876] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F#mail/views/all'
+]
+[2026-09-21 12:06:01.982] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/views/all'
+]
+[2026-09-21 12:06:02.416] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/views/all'
+]
+[2026-09-21 12:06:02.416] [info]  [ 'account is not logged in - opening account window' ]
+[2026-09-21 12:07:04.133] [info]  [ 'Close Window', 'app' ]
+[2026-09-21 12:07:04.685] [info]  [ 'login screen loaded' ]
+[2026-09-21 12:07:04.685] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-09-21 12:07:04.685] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-09-21 12:07:04.902] [info]  [ 'login screen loaded' ]
+[2026-09-21 12:07:09.135] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-21 12:07:13.450] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-21 12:08:21.962] [info]  [ 'login screen loaded' ]
+[2026-09-21 12:08:21.962] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-21 12:08:21.965] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-09-21 12:08:21.966] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-09-21 12:08:21.966] [info]  [ 'Close Window', 'app' ]
+[2026-09-21 12:08:22.001] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-09-21 12:08:22.001] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-09-21 12:08:22.001] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-09-21 12:08:22.004] [info]  [ 'Close Window', 'login' ]
+[2026-09-21 12:08:23.101] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-21 12:08:23.102] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-21 12:08:25.131] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-21 12:08:25.132] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-21 12:08:25.564] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-21 12:08:25.564] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-21 12:08:26.152] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-21 12:08:26.153] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-21 12:08:27.070] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-21 12:08:28.933] [info]  [ 'app window is ready for processing' ]
+[2026-09-28 12:13:55.321] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-09-28 12:13:55.328] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-09-28 12:13:55.333] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-09-28 12:13:55.333] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-09-28 12:13:55.538] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F#mail/views/all'
+]
+[2026-09-28 12:13:55.636] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/views/all'
+]
+[2026-09-28 12:13:56.123] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/views/all'
+]
+[2026-09-28 12:13:56.124] [info]  [ 'account is not logged in - opening account window' ]
+[2026-09-28 12:25:10.250] [info]  [ 'Close Window', 'app' ]
+[2026-09-28 12:25:10.851] [info]  [ 'login screen loaded' ]
+[2026-09-28 12:25:10.852] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-09-28 12:25:10.852] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-09-28 12:25:11.869] [info]  [ 'login screen loaded' ]
+[2026-09-28 12:25:15.252] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-28 12:25:18.795] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-28 12:25:28.297] [info]  [ 'login screen loaded' ]
+[2026-09-28 12:25:28.297] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-28 12:25:28.300] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-09-28 12:25:28.301] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-09-28 12:25:28.301] [info]  [ 'Close Window', 'app' ]
+[2026-09-28 12:25:28.345] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-09-28 12:25:28.345] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-09-28 12:25:28.345] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-09-28 12:25:28.346] [info]  [ 'Close Window', 'login' ]
+[2026-09-28 12:25:29.585] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-28 12:25:29.585] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-28 12:25:30.082] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-28 12:25:30.082] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-28 12:25:30.434] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-28 12:25:30.434] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-28 12:25:30.544] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-28 12:25:30.544] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-28 12:25:32.280] [info]  [ 'app window is ready for processing' ]
+[2026-09-28 12:25:33.346] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-29 08:20:54.165] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-29 08:37:53.978] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-29 08:37:53.978] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-29 08:37:54.071] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-29 08:37:54.072] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-29 08:37:54.132] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-29 08:37:54.132] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-29 08:37:54.365] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-29 08:37:54.365] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-29 08:39:10.988] [info]  [ 'All windows are closed' ]
+[2026-09-29 08:39:10.988] [info]  [ 'APP Switching on progress - ', false ]
+[2026-09-29 08:39:10.989] [info]  [ 'Delete Without Mail Account - Start' ]
+[2026-09-29 08:39:10.990] [info]  [ 'Delete Without Mail Account - No discrepancy found' ]
+[2026-09-29 08:39:10.990] [info]  [ 'Close Window', 'app' ]
+[2026-09-29 08:39:15.725] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-09-29 08:39:15.727] [info]  [
+  '{"appWindowState":{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-09-29 08:39:15.728] [info]  [ 'preference clear-security' ]
+[2026-09-29 08:39:15.732] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-09-29 08:39:15.801] [info]  [ 'Starting app life cycle' ]
+[2026-09-29 08:39:15.802] [info]  [ 'Clearing dead sessions' ]
+[2026-09-29 08:39:15.896] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-09-29 08:39:15.896] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-09-29 08:39:15.897] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-09-29 08:39:16.702] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-29 08:39:16.703] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-29 08:39:16.889] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-29 08:39:16.889] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-29 08:39:17.139] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-29 08:39:17.139] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-29 08:39:17.299] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-29 08:39:17.299] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-29 08:39:18.995] [info]  [ 'app window is ready for processing' ]
+[2026-09-29 08:39:20.902] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-09-29 08:40:56.590] [info]  [
+  '[app-window]:new-window',
+  'https://lt.mydplr.com/db47be576ec0640bd5e6b91edf48ff89-36338145c9b51d53b3c60c11f33ecd44',
+  '',
+  'foreground-tab'
+]
+[2026-09-29 17:26:35.779] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-09-29 17:26:35.780] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-09-29 17:26:37.871] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-29 17:26:37.871] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-29 17:26:38.264] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-29 17:26:38.265] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-29 17:26:38.486] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-09-29 17:26:38.487] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-09-29 17:26:42.160] [info]  [ 'app window is ready for processing' ]
+[2026-10-03 18:34:18.718] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/folder/inbox'
+]
+[2026-10-03 18:34:18.719] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/folder/inbox'
+]
+[2026-10-03 18:34:18.722] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/folder/inbox'
+]
+[2026-10-03 18:34:18.723] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/folder/inbox'
+]
+[2026-10-03 18:34:18.917] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F#mail/folder/inbox'
+]
+[2026-10-03 18:34:19.013] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/folder/inbox'
+]
+[2026-10-03 18:34:19.523] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/folder/inbox'
+]
+[2026-10-03 18:34:19.524] [info]  [ 'account is not logged in - opening account window' ]
+[2026-10-05 09:09:02.313] [info]  [ 'Close Window', 'app' ]
+[2026-10-05 09:09:02.874] [info]  [ 'login screen loaded' ]
+[2026-10-05 09:09:02.875] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-10-05 09:09:02.884] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-10-05 09:09:03.726] [info]  [ 'login screen loaded' ]
+[2026-10-05 09:09:07.316] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-05 09:09:10.539] [info]  [ 'login screen loaded' ]
+[2026-10-05 09:09:10.540] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-05 09:09:10.543] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-10-05 09:09:10.544] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-10-05 09:09:10.545] [info]  [ 'Close Window', 'app' ]
+[2026-10-05 09:09:10.588] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-10-05 09:09:10.589] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-10-05 09:09:10.589] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-10-05 09:09:10.593] [info]  [ 'Close Window', 'login' ]
+[2026-10-05 09:09:10.759] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-05 09:09:11.580] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-05 09:09:11.581] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-10-05 09:09:13.569] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-05 09:09:13.570] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-05 09:09:14.044] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-05 09:09:14.045] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-05 09:09:14.388] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-05 09:09:14.388] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-05 09:09:15.662] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-05 09:09:17.464] [info]  [ 'app window is ready for processing' ]
+[2026-10-06 08:26:20.091] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-06 08:26:20.092] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-10-06 08:26:20.394] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-06 08:26:20.395] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-06 08:26:20.736] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-06 08:26:20.737] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-06 08:26:20.757] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-06 08:26:20.759] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-06 08:26:24.309] [info]  [ 'app window is ready for processing' ]
+[2026-10-06 08:28:39.136] [info]  [
+  '[app-window]:new-window',
+  'https://www.linkedin.com/comm/mynetwork/invite-accept/invitationId/7512214328981524480/sharedKey/wfrXI2js/?inviterVanityName=inganaglez&lipi=urn%3Ali%3Apage%3Aemail_email_m2m_invite_single_01%3BNnyWezhzSiWOLWPWQ9Wb8w%3D%3D&midToken=AQEWOY95v_EiUA&midSig=19wZkiGAoGvss1&trk=eml-email_m2m_invite_single_01-invitation~card-0-accept~invite&trkEmail=eml-email_m2m_invite_single_01-invitation~card-0-accept~invite-null-9g8krs~muss4ag6~mm-null-null&eid=9g8krs-muss4ag6-mm&otpToken=OTNkZmIxNDNkY2VjZmY0YmI4ZThlYTRiNjcyOGU3ZDIzZWVkODIwMzUwNzA0ZWI0ZDk0YTEzOGJhODRlNjY4OTdiNjEwN2U2MzZkNjYzZTY2NzVhMTdiMDZhYTk4NDJmZDQ5YmQ0ZmExYTBmNjNlM2EyZGIwODliYWMzM2NmYzMxZDU1NDkzNWFkNWJhYiwyLDE%3D',
+  '',
+  'foreground-tab'
+]
+[2026-10-08 10:23:03.382] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-10-08 10:23:03.389] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-10-08 10:23:03.394] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-10-08 10:23:03.395] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/views/all'
+]
+[2026-10-08 10:23:03.538] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F#mail/views/all'
+]
+[2026-10-08 10:23:03.608] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/views/all'
+]
+[2026-10-08 10:23:03.976] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/views/all'
+]
+[2026-10-08 10:23:03.976] [info]  [ 'account is not logged in - opening account window' ]
+[2026-10-08 11:35:29.592] [info]  [ 'Close Window', 'app' ]
+[2026-10-08 11:35:34.594] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-08 11:35:37.718] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-08 11:36:02.834] [info]  [ 'login screen loaded' ]
+[2026-10-08 11:36:02.835] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-10-08 11:36:02.836] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-10-08 11:36:08.281] [info]  [ 'login screen loaded' ]
+[2026-10-12 09:40:09.229] [info]  [ 'login screen loaded' ]
+[2026-10-12 09:40:09.229] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'file:///opt/Zoho%20Mail%20-%20Desktop/resources/app.asar/app/window/login-window/landing.html'
+]
+[2026-10-12 09:40:09.230] [info]  [
+  '[base-window] redirect-request',
+  'file:///opt/Zoho%20Mail%20-%20Desktop/resources/app.asar/app/window/login-window/landing.html'
+]
+[2026-10-12 09:40:09.430] [info]  [ 'login screen loaded' ]
+[2026-10-12 09:40:12.696] [info]  [ 'login screen loaded' ]
+[2026-10-12 09:40:12.697] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true'
+]
+[2026-10-12 09:40:12.704] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true'
+]
+[2026-10-12 09:40:13.425] [info]  [ 'login screen loaded' ]
+[2026-10-12 09:40:27.340] [info]  [ 'login screen loaded' ]
+[2026-10-12 09:40:27.341] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-12 09:40:27.345] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-10-12 09:40:27.346] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-10-12 09:40:27.347] [info]  [ 'Close Window', 'app' ]
+[2026-10-12 09:40:27.395] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-10-12 09:40:27.395] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-10-12 09:40:27.395] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-10-12 09:40:27.398] [info]  [ 'Close Window', 'login' ]
+[2026-10-12 09:40:28.646] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-12 09:40:28.646] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-10-12 09:40:28.926] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-12 09:40:28.926] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-12 09:40:29.298] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-12 09:40:29.299] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-12 09:40:29.369] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-12 09:40:29.369] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-12 09:40:31.384] [info]  [ 'app window is ready for processing' ]
+[2026-10-12 09:40:32.470] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-14 09:23:57.166] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-14 09:23:57.166] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-10-14 09:23:59.246] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-14 09:23:59.247] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-14 09:23:59.664] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-14 09:23:59.664] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-14 09:24:00.154] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-14 09:24:00.155] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-14 09:24:02.776] [info]  [ 'app window is ready for processing' ]
+[2026-10-15 17:30:59.680] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-15 17:30:59.681] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-10-15 17:31:01.985] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-15 17:31:01.985] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-15 17:31:02.232] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-15 17:31:02.233] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-15 17:31:02.426] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-15 17:31:02.426] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-15 17:31:04.186] [info]  [ 'app window is ready for processing' ]
+[2026-10-21 16:53:05.091] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F'
+]
+[2026-10-21 16:53:05.202] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-10-21 16:53:05.890] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-10-21 16:53:05.891] [info]  [ 'account is not logged in - opening account window' ]
+[2026-10-21 16:53:07.881] [info]  [ 'Close Window', 'app' ]
+[2026-10-21 16:53:08.161] [info]  [ 'login screen loaded' ]
+[2026-10-21 16:53:08.161] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-10-21 16:53:08.162] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-10-21 16:53:08.725] [info]  [ 'login screen loaded' ]
+[2026-10-21 16:53:12.885] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-21 16:53:12.963] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-21 16:53:36.761] [info]  [ 'login screen loaded' ]
+[2026-10-21 16:53:36.761] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-21 16:53:36.765] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-10-21 16:53:36.766] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-10-21 16:53:36.767] [info]  [ 'Close Window', 'app' ]
+[2026-10-21 16:53:36.807] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-10-21 16:53:36.807] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-10-21 16:53:36.807] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-10-21 16:53:36.811] [info]  [ 'Close Window', 'login' ]
+[2026-10-21 16:53:38.134] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-21 16:53:38.134] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-10-21 16:53:41.557] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-21 16:53:41.557] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-21 16:53:41.866] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-21 16:53:41.999] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-21 16:53:42.000] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-21 16:53:42.059] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-21 16:53:42.059] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-21 16:53:44.817] [info]  [ 'app window is ready for processing' ]
+[2026-10-26 08:54:29.534] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F'
+]
+[2026-10-26 08:54:29.638] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-10-26 08:54:30.165] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-10-26 08:54:30.166] [info]  [ 'account is not logged in - opening account window' ]
+[2026-10-26 08:54:32.514] [info]  [ 'Close Window', 'app' ]
+[2026-10-26 08:54:32.793] [info]  [ 'login screen loaded' ]
+[2026-10-26 08:54:32.793] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-10-26 08:54:32.794] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-10-26 08:54:33.262] [info]  [ 'login screen loaded' ]
+[2026-10-26 08:54:37.521] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-26 08:54:37.662] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-26 08:55:05.773] [info]  [ 'login screen loaded' ]
+[2026-10-26 08:55:05.773] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-26 08:55:05.777] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-10-26 08:55:05.777] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-10-26 08:55:05.778] [info]  [ 'Close Window', 'app' ]
+[2026-10-26 08:55:05.843] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-10-26 08:55:05.844] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-10-26 08:55:05.844] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-10-26 08:55:05.850] [info]  [ 'Close Window', 'login' ]
+[2026-10-26 08:55:07.375] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-26 08:55:07.376] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-10-26 08:55:09.721] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-26 08:55:09.722] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-26 08:55:10.265] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-26 08:55:10.266] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-26 08:55:10.534] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-26 08:55:10.534] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-26 08:55:10.936] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-10-26 08:55:21.058] [info]  [ 'app window is ready for processing' ]
+[2026-10-26 08:55:55.663] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-26 08:55:55.663] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-10-26 08:55:55.893] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-26 08:55:55.893] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-26 08:55:56.162] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-26 08:55:56.162] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-26 08:55:56.258] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-26 08:55:56.258] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-26 08:56:01.002] [info]  [ 'app window is ready for processing' ]
+[2026-10-26 08:57:20.428] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-10-26 08:57:20.429] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-10-26 08:57:20.809] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-26 08:57:20.809] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-26 08:57:21.281] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-26 08:57:21.282] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-26 08:57:21.426] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-10-26 08:57:21.426] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-10-26 08:57:26.272] [info]  [ 'app window is ready for processing' ]
+[2026-11-05 09:18:13.275] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/folder/spam'
+]
+[2026-11-05 09:18:13.282] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/folder/spam'
+]
+[2026-11-05 09:18:13.286] [info]  [
+  'appWindow',
+  'will-navigate',
+  'https://mail.zoho.com/zm/#mail/folder/spam'
+]
+[2026-11-05 09:18:13.286] [info]  [
+  'Trusted URL Navigation',
+  'https://mail.zoho.com/zm/#mail/folder/spam'
+]
+[2026-11-05 09:18:13.493] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F#mail/folder/spam'
+]
+[2026-11-05 09:18:13.596] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/folder/spam'
+]
+[2026-11-05 09:18:14.094] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F#mail/folder/spam'
+]
+[2026-11-05 09:18:14.094] [info]  [ 'account is not logged in - opening account window' ]
+[2026-11-05 09:18:19.205] [info]  [ 'Close Window', 'app' ]
+[2026-11-05 09:18:19.519] [info]  [ 'login screen loaded' ]
+[2026-11-05 09:18:19.520] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-11-05 09:18:19.520] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-11-05 09:18:20.202] [info]  [ 'login screen loaded' ]
+[2026-11-05 09:18:24.206] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-11-05 09:18:27.339] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-11-06 09:41:44.406] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-11-10 08:24:48.055] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-11-10 08:24:48.058] [info]  [
+  '{"appWindowState":{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-11-10 08:24:48.059] [info]  [ 'preference clear-security' ]
+[2026-11-10 08:24:48.062] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-11-10 08:24:48.224] [info]  [ 'Starting app life cycle' ]
+[2026-11-10 08:24:48.224] [info]  [ 'Clearing dead sessions' ]
+[2026-11-10 08:24:48.356] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-11-10 08:24:48.357] [info]  [ 'app-window', 'AUTHMissing' ]
+[2026-11-10 08:24:49.073] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://mail.zoho.com/biz/login?serviceurl=%2Fzm%2F'
+]
+[2026-11-10 08:24:49.297] [info]  [
+  'app-window',
+  'server-redirect',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-11-10 08:24:50.253] [info]  [
+  'appWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&signupurl=https%3A%2F%2Fwww.zoho.com%2Fmail%2Fzohomail-pricing.html&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-11-10 08:24:50.253] [info]  [ 'account is not logged in - opening account window' ]
+[2026-11-10 08:24:52.813] [info]  [ 'Close Window', 'app' ]
+[2026-11-10 08:24:53.172] [info]  [ 'login screen loaded' ]
+[2026-11-10 08:24:53.172] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-11-10 08:24:53.181] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https://mail.zoho.com/zm/&hidesignup=true&hide_secure=true&LOGIN_ID=rmachuca@intecfra.com'
+]
+[2026-11-10 08:24:57.818] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-11-10 08:24:57.893] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-11-10 08:24:59.436] [info]  [ 'login screen loaded' ]
+[2026-11-11 15:05:42.150] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-11-18 07:07:21.561] [info]  [ 'login screen loaded' ]
+[2026-11-18 07:07:21.562] [info]  [
+  'loginWindow',
+  'will-navigate',
+  'https://accounts.zoho.com/password?servicename=VirtualOffice&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-11-18 07:07:21.785] [info]  [ 'login screen loaded' ]
+[2026-11-18 07:07:21.785] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/password?servicename=VirtualOffice&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-11-18 07:07:21.785] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/password?servicename=VirtualOffice&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-11-18 07:07:22.604] [info]  [ 'login screen loaded' ]
+[2026-11-18 07:09:47.570] [info]  [ 'login screen loaded' ]
+[2026-11-18 07:09:47.570] [info]  [
+  'loginWindow',
+  'will-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-11-18 07:09:47.786] [info]  [ 'login screen loaded' ]
+[2026-11-18 07:09:47.786] [info]  [
+  'loginWindow',
+  'did-navigate',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-11-18 07:09:47.787] [info]  [
+  '[base-window] redirect-request',
+  'https://accounts.zoho.com/signin?servicename=VirtualOffice&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fzm%2F'
+]
+[2026-11-18 07:09:47.971] [info]  [ 'login screen loaded' ]
+[2026-11-18 07:09:52.849] [info]  [ 'login screen loaded' ]
+[2026-11-18 07:09:52.849] [info]  [ 'loginWindow', 'will-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-11-18 07:09:52.851] [info]  [ 'login Success', 'persist:session-partition1' ]
+[2026-11-18 07:09:52.852] [info]  [ 'Session already exists, skipping account fetch' ]
+[2026-11-18 07:09:52.852] [info]  [ 'Close Window', 'app' ]
+[2026-11-18 07:09:52.878] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-11-18 07:09:52.878] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-11-18 07:09:52.878] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-11-18 07:09:52.879] [info]  [ 'Close Window', 'login' ]
+[2026-11-18 07:09:54.138] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-11-18 07:09:54.138] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-11-18 07:09:56.379] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-18 07:09:56.379] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-18 07:09:56.895] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-18 07:09:56.895] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-18 07:09:57.364] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-18 07:09:57.365] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-18 07:09:57.926] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-11-18 07:10:01.320] [info]  [ 'app window is ready for processing' ]
+[2026-11-20 10:45:39.853] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":12,"y":50,"width":1892,"height":1134}}'
+]
+[2026-11-20 13:38:18.033] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":0,"y":0,"width":1920,"height":1200}}'
+]
+[2026-11-23 09:03:52.172] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1920,"y":0,"width":1920,"height":1200}}'
+]
+[2026-11-23 12:03:19.118] [info]  [
+  '[App opened] - version: 1.9.1 - Meta: linux-x64, framework - 39.3.0, baseframework - 142.0.7444.265'
+]
+[2026-11-23 12:03:19.121] [info]  [
+  '{"appWindowState":{"maximized":false,"fullscreen":false,"bounds":{"x":1920,"y":0,"width":1920,"height":1200}},"enableSecurityFileWrite":true,"defaultMail":{"alwaysCheck":true},"appUpdater":{"autoCheck":true,"autoUpdateErrorCount":0},"oneTimeMessages":{"publicSystems":1},"spellcheck":true,"viewMenu":{"notificationBadge":true,"searchEngine":"Google"},"enableAccountSwitchShortcut":true,"disableGPU":false,"systemTray":true,"preferredDC":"zoho","warnBeforeQuit":true,"downloadPreferences":{"folderPath":"/home/darkness","askMeDownload":true}}'
+]
+[2026-11-23 12:03:19.122] [info]  [ 'preference clear-security' ]
+[2026-11-23 12:03:19.125] [info]  [ 'preference clear-chinaDCEnable' ]
+[2026-11-23 12:03:19.253] [info]  [ 'Starting app life cycle' ]
+[2026-11-23 12:03:19.253] [info]  [ 'Clearing dead sessions' ]
+[2026-11-23 12:03:19.395] [info]  [ 'app-window', 'BiscuitsFound' ]
+[2026-11-23 12:03:19.395] [info]  [ 'app-window', 'AUTHFOUND' ]
+[2026-11-23 12:03:19.396] [info]  [ 'app-window', 'AUTHNotExpired' ]
+[2026-11-23 12:03:22.121] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-11-23 12:03:22.121] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-11-23 12:03:24.220] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-23 12:03:24.221] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-23 12:03:24.517] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-23 12:03:24.517] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-23 12:03:24.806] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-23 12:03:24.807] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-23 12:03:27.533] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":976,"height":1134}}'
+]
+[2026-11-23 12:03:29.047] [info]  [ 'app window is ready for processing' ]
+[2026-11-23 12:03:50.087] [info]  [
+  'preference update-appWindowState-{"maximized":false,"fullscreen":false,"bounds":{"x":1932,"y":50,"width":1892,"height":1134}}'
+]
+[2026-11-24 11:51:06.118] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-11-24 11:51:06.119] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-11-24 11:51:06.359] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-24 11:51:06.360] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-24 11:51:06.590] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-24 11:51:06.590] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-24 11:51:06.722] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-24 11:51:06.723] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-24 11:51:14.453] [info]  [ 'app window is ready for processing' ]
+[2026-11-24 12:01:04.071] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-11-24 12:01:04.071] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-11-24 12:01:04.167] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-24 12:01:04.167] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-24 12:01:04.239] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-24 12:01:04.240] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-24 12:01:04.482] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-24 12:01:04.482] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-24 12:01:06.958] [info]  [ 'app window is ready for processing' ]
+[2026-11-25 10:58:50.782] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-11-25 10:58:50.789] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-11-25 10:58:51.023] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-25 10:58:51.023] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-25 10:58:51.274] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-25 10:58:51.275] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-25 10:58:51.421] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-25 10:58:51.422] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-25 10:58:54.166] [info]  [ 'app window is ready for processing' ]
+[2026-11-26 21:56:41.647] [info]  [ 'appWindow', 'did-navigate', 'https://mail.zoho.com/zm/' ]
+[2026-11-26 21:56:41.648] [info]  [ '[base-window] redirect-request', 'https://mail.zoho.com/zm/' ]
+[2026-11-26 21:56:43.983] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-26 21:56:43.983] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-26 21:56:44.236] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-26 21:56:44.237] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-26 21:56:44.355] [info]  [ 'Duplicate Sessions detection for - persist:session-partition1' ]
+[2026-11-26 21:56:44.355] [info]  [ 'Duplicate Account Cleaning - START', '[]' ]
+[2026-11-26 21:56:47.231] [info]  [ 'app window is ready for processing' ]

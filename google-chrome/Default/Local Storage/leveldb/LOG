@@ -1,0 +1,4 @@
+2026/11/23-12:03:22.325 5 Reusing MANIFEST /home/darkness/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2026/11/23-12:03:22.325 5 Recovering log #3
+2026/11/23-12:03:22.326 5 (ignoring error) /home/darkness/.config/google-chrome/Default/Local Storage/leveldb/000003.log: dropping 3242 bytes; Corruption: missing start of fragmented record(2)
+2026/11/23-12:03:22.326 5 Reusing old log /home/darkness/.config/google-chrome/Default/Local Storage/leveldb/000003.log 

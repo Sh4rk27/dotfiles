@@ -1,0 +1,6 @@
+2026/10/27-10:27:09.461 ca4 Creating DB /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb since it was missing.
+2026/10/27-10:27:09.463 ca4 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/27-10:30:14.303 c87 Level-0 table #5: started
+2026/10/27-10:30:14.305 c87 Level-0 table #5: 8368 bytes OK
+2026/10/27-10:30:14.307 c87 Delete type=0 #3
+2026/10/27-10:30:14.307 c87 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,12 @@
+﻿{
+  "publickeys": [
+    {
+      "email": "ricardowelcomme@hotmail.com",
+      "groupName": "",
+      "publickey": {
+        "pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArXNOAVhKlaYtWhVU44lD\nT1OGboLzQRYkVxCJK7CyqIFzIGUgHcN5xBaMBnKQlj6RVtMf733x3G51c1yI17Qd\nq9aCRNcqI9M5IOnOSKeirPuI6lz12TeqZ5OJvl7R8PiMwp29rinZ2tCEJwAF7XL0\naEVtxnLHssAmDlg42HCn961GT0qdZHJ5q83PmUFx7hwRMTcbzE2qYLHP6KjqGfvF\nlP67o4KDmS+8Y9gPmlzDyRiS5w6AA8vPQOnuHJY62f4dSpBLMpPOvuia2W20KNpz\n69r0qzw1gGElg61IA/3DT9eXXMIh3mjJ/eg9iEFziu7CeqAGQduREeIv/Yy7y+DH\niMEW6bR96tlCjph11MKMgG+tnRcIMUe6ah4BIxpNzbIP2MgvFApVyFG/Uqs681nq\nWcPMPqg+RMXqrOxq/C+5jT7G+WwhRkoNJdR1dodCVOi7LfXaRCGyj+tAYwad7PPv\n/gRWLzRn8Bf2AwmSDq8UTToES1CjAtfH6zdsXzdKRsantZmG+AQNb+lRY2Pb9ky+\n3bGjWYX5geatDj0FhxGVeVHP6rRWG8jupeujFN00qL+h+Z9VsGwAI32aH0ZsEK5m\nPGMl/oMt2OXB7y2YsMutvl2tPcbfuKaDQN93P5u+LUYpDzjZSEFIFC58lYDJY9Hx\n/JdRyPfwuZagn2AzjrpeC3kCAwEAAQ==\n-----END PUBLIC KEY-----\n"
+      },
+      "user_imported": false
+    }
+  ]
+}

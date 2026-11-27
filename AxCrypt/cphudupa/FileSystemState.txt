@@ -1,0 +1,12 @@
+﻿{
+  "watchedFolders": [],
+  "vaultFolders": [],
+  "knownPassphrases": [
+    {
+      "thumbprint": {
+        "thumbprint": "LZcj5jxM"
+      }
+    }
+  ],
+  "activeFiles": []
+}

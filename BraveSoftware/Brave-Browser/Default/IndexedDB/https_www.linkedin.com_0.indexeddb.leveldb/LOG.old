@@ -1,0 +1,15 @@
+2026/10/06-08:28:45.450 c86 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/06-08:28:45.450 c86 Recovering log #15
+2026/10/06-08:28:45.451 c86 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.linkedin.com_0.indexeddb.leveldb/000015.log 
+2026/10/07-23:52:56.474 c87 Level-0 table #20: started
+2026/10/07-23:52:56.477 c87 Level-0 table #20: 16543 bytes OK
+2026/10/07-23:52:56.479 c87 Delete type=0 #15
+2026/10/07-23:52:56.479 c87 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/10/07-23:52:56.480 c87 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x03\x00P\xb5\xef\x97\x11zB' @ 50358 : 1
+2026/10/07-23:52:56.480 c87 Compacting 1@1 + 1@2 files
+2026/10/07-23:52:56.483 c87 Generated table #21@1: 47 keys, 943 bytes
+2026/10/07-23:52:56.483 c87 Compacted 1@1 + 1@2 files => 943 bytes
+2026/10/07-23:52:56.484 c87 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/10/07-23:52:56.485 c87 Delete type=2 #20
+2026/10/07-23:52:56.485 c87 Delete type=2 #17
+2026/10/07-23:52:56.486 c87 Manual compaction at level-1 from '\x00\x02\x01\x02\x03\x00P\xb5\xef\x97\x11zB' @ 50358 : 1 .. (end); will stop at (end)

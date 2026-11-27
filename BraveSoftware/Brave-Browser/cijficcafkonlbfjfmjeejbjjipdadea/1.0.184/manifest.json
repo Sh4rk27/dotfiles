@@ -1,0 +1,7 @@
+{
+  "description": "Brave Ad Block Updater extension",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxdtGogqtpPMKDw7xFgp/Q8pwufcVoiuwgRxuEBVVPrCBkuNBlbe8tnoZ6pS2rWPhlz1UAgZQEh+9Np62KWrFgGId1ryYq5+GSIFyNBfWZJhqBs5j8Kszjhh6ZPCuPveglFSmK9WqIUoEoS/k3E89zWA62c8wWtX4W4h0oQ/P/46TXUfEHMGn6vBhbRGDzOOBf/IwrtptTvyDenpvkE9/nBTOvzCJ5ZPuKUxhIGTOZQ3Rzp+75Wd0vcACGsJVK+1zk1hBWBqbuQhzdiKEgmAwSCCPaA646JCBfts7o+ZmUlu1wrykpuNIcUBZQViJM3C0ouCozxgl+wwVKvKtH5LQFQIDAQAB",
+  "manifest_version": 2,
+  "name": "Brave Ad Block Updater (AI suggestions blocker (plaintext))",
+  "version": "1.0.184"
+}

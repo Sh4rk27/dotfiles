@@ -1,0 +1,22 @@
+00:00:00.360947 VirtualBox GUI VM Selector Window 7.1.18 r173720 linux.amd64 (Apr 20 2026 11:21:42) release log
+00:00:00.360951 Log opened 2026-08-12T15:10:28.770619000Z
+00:00:00.360952 Build Type: release
+00:00:00.360962 OS Product: Linux
+00:00:00.360964 OS Release: 6.17.0-40-generic
+00:00:00.360966 OS Version: #40~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Jun 23 16:48:12 UTC 2
+00:00:00.361030 DMI Product Name: 21HE0013LM
+00:00:00.361058 DMI Product Version: ThinkPad T14 Gen 4
+00:00:00.361077 Firmware type: UEFI
+00:00:00.361779 Secure Boot: Disabled
+00:00:00.361868 Host RAM: 15653MB (15.2GB) total, 6955MB (6.7GB) available
+00:00:00.361876 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.361877 Process ID: 2021021
+00:00:00.361877 Package type: LINUX_64BITS_UBUNTU_24_04
+00:00:00.361937 Qt version: 6.4.2
+00:00:00.362767 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.370110 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.370136 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.741260 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 1004x50 x 900x519
+00:00:00.771634 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 1004x585 x 460x479
+00:00:12.606823 GUI: UICommon: Handling aboutToQuit request..
+00:00:13.824882 GUI: UICommon: aboutToQuit request handled!

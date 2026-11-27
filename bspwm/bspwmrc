@@ -18,10 +18,8 @@ libinput-gestures-setup stop
 libinput-gestures-setup start &
 
 # 3. Notificaciones y Composición
-killall -9 picom compton 2>/dev/null
 killall -q dunst; dunst &
 sleep 1
-picom --config ~/.config/picom/picom.conf --experimental-backends &
 
 
 # --- Fin de Autostart ---
@@ -76,7 +74,6 @@ bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Screenkey manage=off
-bspc rule -a Flameshot state=floating border=off
 # bspc rule -a Scratchpad state=floating rectangle=1200x700+360+190 sticky=on node=scratchpad
 bspc rule -a Gnome-terminal:*:Scratchpad state=floating rectangle=1200x700+360+190 sticky=on
 # Para que se abra flotando o en un workspace específico
@@ -97,3 +94,6 @@ bspc rule -a Nm-connection-editor state=floating rectangle=750x550+0+0 center=tr
 
 # --- Autostart ---
 $HOME/.config/bspwm/scripts/monitor_setup.sh 
+bspc rule -a flameshot state=fullscreen layer=above focus=on
+QT_X11_NO_MITSHM=1 flameshot &
+picom --config ~/.config/picom/picom.conf -b &

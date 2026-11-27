@@ -1,0 +1,44 @@
+2026/11/26-21:56:44.180 c91 Reusing MANIFEST /home/darkness/.config/Zoho Mail - Desktop/Partitions/session-partition1/IndexedDB/https_mail.zoho.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/26-21:56:44.180 c91 Recovering log #269
+2026/11/26-21:56:44.181 c91 Reusing old log /home/darkness/.config/Zoho Mail - Desktop/Partitions/session-partition1/IndexedDB/https_mail.zoho.com_0.indexeddb.leveldb/000269.log 
+2026/11/26-21:56:44.186 c4f Level-0 table #274: started
+2026/11/26-21:56:44.187 c4f Level-0 table #274: 1976 bytes OK
+2026/11/26-21:56:44.188 c4f Delete type=0 #269
+2026/11/26-21:56:44.188 c4f Manual compaction at level-0 from '\x00C\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00D\x00\x00\x00' @ 0 : 0; will stop at '\x00C\x01\x02\x01\x03\x00k\x00e\x00y' @ 3718 : 1
+2026/11/26-21:56:44.188 c4f Compacting 1@0 + 1@1 files
+2026/11/26-21:56:44.189 c4f Generated table #275@0: 31 keys, 1086 bytes
+2026/11/26-21:56:44.189 c4f Compacted 1@0 + 1@1 files => 1086 bytes
+2026/11/26-21:56:44.190 c4f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/26-21:56:44.190 c4f Delete type=2 #274
+2026/11/26-21:56:44.190 c4f Manual compaction at level-0 from '\x00C\x01\x02\x01\x03\x00k\x00e\x00y' @ 3718 : 1 .. '\x00D\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/26-21:56:45.514 c4f Level-0 table #277: started
+2026/11/26-21:56:45.515 c4f Level-0 table #277: 521 bytes OK
+2026/11/26-21:56:45.517 c4f Delete type=2 #271
+2026/11/26-21:56:45.517 c4f Delete type=0 #273
+2026/11/26-21:56:45.517 c4f Manual compaction at level-0 from '\x00D\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00E\x00\x00\x00' @ 0 : 0; will stop at '\x00D\x00\x00\x05' @ 3754 : 1
+2026/11/26-21:56:45.517 c4f Compacting 1@0 + 1@1 files
+2026/11/26-21:56:45.519 c4f Generated table #278@0: 31 keys, 1086 bytes
+2026/11/26-21:56:45.519 c4f Compacted 1@0 + 1@1 files => 1086 bytes
+2026/11/26-21:56:45.520 c4f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/26-21:56:45.521 c4f Delete type=2 #277
+2026/11/26-21:56:45.521 c4f Manual compaction at level-0 from '\x00D\x00\x00\x05' @ 3754 : 1 .. '\x00E\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/11/26-21:56:47.518 c91 Level-0 table #280: started
+2026/11/26-21:56:47.519 c91 Level-0 table #280: 256 bytes OK
+2026/11/26-21:56:47.520 c91 Delete type=0 #276
+2026/11/26-21:56:47.520 c91 Delete type=2 #275
+2026/11/26-21:56:47.520 c91 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x04\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 3768 : 0
+2026/11/26-21:56:47.520 c91 Compacting 1@0 + 1@1 files
+2026/11/26-21:56:47.521 c91 Generated table #281@0: 33 keys, 1108 bytes
+2026/11/26-21:56:47.521 c91 Compacted 1@0 + 1@1 files => 1108 bytes
+2026/11/26-21:56:47.522 c91 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/26-21:56:47.523 c91 Delete type=2 #278
+2026/11/26-21:56:47.523 c91 Delete type=2 #280
+2026/11/26-21:56:47.523 c91 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x04\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 3768 : 0 .. (end); will stop at (end)
+2026/11/26-21:56:47.523 c91 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x05\x01\x02\x01\x12\x00m\x00a\x00c\x00h\x00i\x00n\x00e\x00_\x00s\x00c\x00o\x00r\x00e\x00_\x00d\x00a\x00t\x00a' @ 3666 : 1
+2026/11/26-21:56:47.523 c91 Compacting 1@1 + 1@2 files
+2026/11/26-21:56:47.524 c91 Generated table #282@1: 21 keys, 1014 bytes
+2026/11/26-21:56:47.524 c91 Compacted 1@1 + 1@2 files => 1014 bytes
+2026/11/26-21:56:47.525 c91 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/26-21:56:47.525 c91 Delete type=2 #258
+2026/11/26-21:56:47.525 c91 Delete type=2 #281
+2026/11/26-21:56:47.525 c91 Manual compaction at level-1 from '\x00\x05\x01\x02\x01\x12\x00m\x00a\x00c\x00h\x00i\x00n\x00e\x00_\x00s\x00c\x00o\x00r\x00e\x00_\x00d\x00a\x00t\x00a' @ 3666 : 1 .. (end); will stop at (end)

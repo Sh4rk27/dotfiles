@@ -1,0 +1,14 @@
+{
+	"openedSessions": [],
+	"usedSessions": [
+		"1"
+	],
+	"lastOpenedSession": "persist:session-partition1",
+	"sessions": {
+		"persist:session-partition1": {
+			"deployment": "zoho",
+			"emailId": "rmachuca@intecfra.com",
+			"dispName": "Ricardo Daniel Machuca Welcomme"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+2026/11/23-12:36:21.015 1126 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_excel.officeapps.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/23-12:36:21.015 1126 Recovering log #49
+2026/11/23-12:36:21.030 1126 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_excel.officeapps.live.com_0.indexeddb.leveldb/000049.log 
+2026/11/23-12:36:27.869 1131 Level-0 table #54: started
+2026/11/23-12:36:27.893 1131 Level-0 table #54: 1068291 bytes OK
+2026/11/23-12:36:27.894 1131 Delete type=0 #49
+2026/11/23-13:02:07.164 1126 Compacting 1@1 + 1@2 files
+2026/11/23-13:02:07.193 1126 Generated table #55@1: 360 keys, 177916 bytes
+2026/11/23-13:02:07.193 1126 Compacted 1@1 + 1@2 files => 177916 bytes
+2026/11/23-13:02:07.195 1126 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/23-13:02:07.196 1126 Delete type=2 #51
+2026/11/23-13:02:07.196 1126 Delete type=2 #54
+2026/11/24-18:35:53.923 1126 Level-0 table #57: started
+2026/11/24-18:35:53.934 1126 Level-0 table #57: 686444 bytes OK
+2026/11/24-18:35:53.937 1126 Delete type=0 #53
+2026/11/24-18:35:53.937 1126 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/11/24-18:35:53.938 1126 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x10\x01\x02\x01,\x00{\x000\x000\x000\x000\x000\x000\x000\x000\x00-\x000\x000\x000\x001\x00-\x000\x000\x000\x000\x00-\x000\x006\x000\x000\x00-\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x00}\x00_\x000\x00_\x002\x00_\x001' @ 54196 : 1
+2026/11/24-18:35:53.938 1126 Compacting 1@1 + 1@2 files
+2026/11/24-18:35:53.948 1126 Generated table #58@1: 369 keys, 167566 bytes
+2026/11/24-18:35:53.948 1126 Compacted 1@1 + 1@2 files => 167566 bytes
+2026/11/24-18:35:53.950 1126 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/24-18:35:53.950 1126 Delete type=2 #55
+2026/11/24-18:35:53.950 1126 Delete type=2 #57
+2026/11/24-18:35:53.951 1126 Manual compaction at level-1 from '\x00\x10\x01\x02\x01,\x00{\x000\x000\x000\x000\x000\x000\x000\x000\x00-\x000\x000\x000\x001\x00-\x000\x000\x000\x000\x00-\x000\x006\x000\x000\x00-\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x000\x00}\x00_\x000\x00_\x002\x00_\x001' @ 54196 : 1 .. (end); will stop at (end)

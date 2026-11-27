@@ -1,0 +1,15 @@
+2026/11/23-12:26:00.152 1128 Reusing MANIFEST /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_outlook.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/11/23-12:26:00.152 1128 Recovering log #7
+2026/11/23-12:26:00.153 1128 Reusing old log /home/darkness/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_outlook.live.com_0.indexeddb.leveldb/000007.log 
+2026/11/23-16:26:20.857 1128 Level-0 table #12: started
+2026/11/23-16:26:20.860 1128 Level-0 table #12: 23999 bytes OK
+2026/11/23-16:26:20.862 1128 Delete type=0 #7
+2026/11/23-16:26:20.863 1128 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2026/11/23-16:26:20.863 1128 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0a\x00\x00\x05' @ 740 : 1
+2026/11/23-16:26:20.863 1128 Compacting 1@1 + 1@2 files
+2026/11/23-16:26:20.865 1128 Generated table #13@1: 102 keys, 5857 bytes
+2026/11/23-16:26:20.866 1128 Compacted 1@1 + 1@2 files => 5857 bytes
+2026/11/23-16:26:20.867 1128 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/11/23-16:26:20.867 1128 Delete type=2 #12
+2026/11/23-16:26:20.867 1128 Delete type=2 #9
+2026/11/23-16:26:20.868 1128 Manual compaction at level-1 from '\x00\x0a\x00\x00\x05' @ 740 : 1 .. (end); will stop at (end)

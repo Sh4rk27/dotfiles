@@ -1,0 +1,126 @@
+2026/11/23-12:03:19.294 c4f Reusing MANIFEST /home/darkness/.config/Zoho Mail - Desktop/Partitions/session-partition1/Local Storage/leveldb/MANIFEST-000001
+2026/11/23-12:03:19.304 c4f Recovering log #532
+2026/11/23-12:03:19.304 c4f Reusing old log /home/darkness/.config/Zoho Mail - Desktop/Partitions/session-partition1/Local Storage/leveldb/000532.log 
+2026/11/23-14:00:22.117 c4f Level-0 table #536: started
+2026/11/23-14:00:22.125 c4f Level-0 table #536: 7468 bytes OK
+2026/11/23-14:00:22.126 c4f Delete type=0 #532
+2026/11/23-14:00:22.126 c4f Compacting 4@0 + 1@1 files
+2026/11/23-14:00:22.128 c4f Generated table #537@0: 19 keys, 10182 bytes
+2026/11/23-14:00:22.128 c4f Compacted 4@0 + 1@1 files => 10182 bytes
+2026/11/23-14:00:22.129 c4f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/23-14:00:22.129 c4f Delete type=2 #533
+2026/11/23-14:00:22.130 c4f Delete type=2 #536
+2026/11/23-14:00:22.130 c4f Delete type=2 #529
+2026/11/23-14:00:22.130 c4f Delete type=2 #531
+2026/11/23-14:00:22.130 c4f Delete type=2 #527
+2026/11/23-16:38:22.117 c4f Level-0 table #539: started
+2026/11/23-16:38:22.125 c4f Level-0 table #539: 7203 bytes OK
+2026/11/23-16:38:22.127 c4f Delete type=0 #535
+2026/11/24-08:35:21.826 c91 Level-0 table #541: started
+2026/11/24-08:35:21.834 c91 Level-0 table #541: 7299 bytes OK
+2026/11/24-08:35:21.838 c91 Delete type=0 #538
+2026/11/24-11:13:24.943 c91 Level-0 table #543: started
+2026/11/24-11:13:24.951 c91 Level-0 table #543: 7152 bytes OK
+2026/11/24-11:13:24.953 c91 Delete type=0 #540
+2026/11/24-13:47:24.940 c91 Level-0 table #545: started
+2026/11/24-13:47:24.948 c91 Level-0 table #545: 7676 bytes OK
+2026/11/24-13:47:24.950 c91 Delete type=0 #542
+2026/11/24-13:47:24.951 c91 Compacting 4@0 + 1@1 files
+2026/11/24-13:47:24.955 c91 Generated table #546@0: 18 keys, 10180 bytes
+2026/11/24-13:47:24.955 c91 Compacted 4@0 + 1@1 files => 10180 bytes
+2026/11/24-13:47:24.956 c91 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/24-13:47:24.957 c91 Delete type=2 #543
+2026/11/24-13:47:24.957 c91 Delete type=2 #539
+2026/11/24-13:47:24.957 c91 Delete type=2 #537
+2026/11/24-13:47:24.957 c91 Delete type=2 #545
+2026/11/24-13:47:24.957 c91 Delete type=2 #541
+2026/11/24-16:25:24.946 c91 Level-0 table #548: started
+2026/11/24-16:25:24.950 c91 Level-0 table #548: 7214 bytes OK
+2026/11/24-16:25:24.952 c91 Delete type=0 #544
+2026/11/24-19:54:00.756 c91 Level-0 table #550: started
+2026/11/24-19:54:00.764 c91 Level-0 table #550: 7262 bytes OK
+2026/11/24-19:54:00.765 c91 Delete type=0 #547
+2026/11/24-22:32:00.762 c4f Level-0 table #552: started
+2026/11/24-22:32:00.770 c4f Level-0 table #552: 7208 bytes OK
+2026/11/24-22:32:00.772 c4f Delete type=0 #549
+2026/11/25-01:10:00.767 c4f Level-0 table #554: started
+2026/11/25-01:10:00.775 c4f Level-0 table #554: 7200 bytes OK
+2026/11/25-01:10:00.777 c4f Delete type=0 #551
+2026/11/25-01:10:00.778 c4f Compacting 4@0 + 1@1 files
+2026/11/25-01:10:00.781 c4f Generated table #555@0: 18 keys, 10179 bytes
+2026/11/25-01:10:00.781 c4f Compacted 4@0 + 1@1 files => 10179 bytes
+2026/11/25-01:10:00.782 c4f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/25-01:10:00.783 c4f Delete type=2 #552
+2026/11/25-01:10:00.783 c4f Delete type=2 #554
+2026/11/25-01:10:00.783 c4f Delete type=2 #550
+2026/11/25-01:10:00.783 c4f Delete type=2 #546
+2026/11/25-01:10:00.783 c4f Delete type=2 #548
+2026/11/25-03:48:00.762 c4f Level-0 table #557: started
+2026/11/25-03:48:00.770 c4f Level-0 table #557: 7206 bytes OK
+2026/11/25-03:48:00.772 c4f Delete type=0 #553
+2026/11/25-06:26:00.765 c91 Level-0 table #559: started
+2026/11/25-06:26:00.773 c91 Level-0 table #559: 7213 bytes OK
+2026/11/25-06:26:00.775 c91 Delete type=0 #556
+2026/11/25-09:04:00.760 c4f Level-0 table #561: started
+2026/11/25-09:04:00.768 c4f Level-0 table #561: 7218 bytes OK
+2026/11/25-09:04:00.769 c4f Delete type=0 #558
+2026/11/25-11:36:00.776 c91 Level-0 table #563: started
+2026/11/25-11:36:00.779 c91 Level-0 table #563: 9289 bytes OK
+2026/11/25-11:36:00.782 c91 Delete type=0 #560
+2026/11/25-11:36:00.782 c91 Compacting 4@0 + 1@1 files
+2026/11/25-11:36:00.786 c91 Generated table #564@0: 18 keys, 11002 bytes
+2026/11/25-11:36:00.787 c91 Compacted 4@0 + 1@1 files => 11002 bytes
+2026/11/25-11:36:00.789 c91 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/25-11:36:00.790 c91 Delete type=2 #557
+2026/11/25-11:36:00.790 c91 Delete type=2 #561
+2026/11/25-11:36:00.790 c91 Delete type=2 #555
+2026/11/25-11:36:00.790 c91 Delete type=2 #559
+2026/11/25-11:36:00.790 c91 Delete type=2 #563
+2026/11/25-14:12:00.765 c91 Level-0 table #566: started
+2026/11/25-14:12:00.769 c91 Level-0 table #566: 7104 bytes OK
+2026/11/25-14:12:00.771 c91 Delete type=0 #562
+2026/11/25-16:48:00.758 c91 Level-0 table #568: started
+2026/11/25-16:48:00.766 c91 Level-0 table #568: 7085 bytes OK
+2026/11/25-16:48:00.768 c91 Delete type=0 #565
+2026/11/26-08:10:06.021 c91 Level-0 table #570: started
+2026/11/26-08:10:06.029 c91 Level-0 table #570: 7230 bytes OK
+2026/11/26-08:10:06.031 c91 Delete type=0 #567
+2026/11/26-10:46:06.020 c91 Level-0 table #572: started
+2026/11/26-10:46:06.028 c91 Level-0 table #572: 7172 bytes OK
+2026/11/26-10:46:06.030 c91 Delete type=0 #569
+2026/11/26-10:46:06.031 c91 Compacting 4@0 + 1@1 files
+2026/11/26-10:46:06.034 c91 Generated table #573@0: 18 keys, 11004 bytes
+2026/11/26-10:46:06.034 c91 Compacted 4@0 + 1@1 files => 11004 bytes
+2026/11/26-10:46:06.036 c91 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/26-10:46:06.037 c91 Delete type=2 #566
+2026/11/26-10:46:06.037 c91 Delete type=2 #570
+2026/11/26-10:46:06.037 c91 Delete type=2 #568
+2026/11/26-10:46:06.037 c91 Delete type=2 #572
+2026/11/26-10:46:06.037 c91 Delete type=2 #564
+2026/11/26-13:22:06.037 c4f Level-0 table #575: started
+2026/11/26-13:22:06.044 c4f Level-0 table #575: 7176 bytes OK
+2026/11/26-13:22:06.047 c4f Delete type=0 #571
+2026/11/26-15:58:06.036 c4f Level-0 table #577: started
+2026/11/26-15:58:06.043 c4f Level-0 table #577: 7145 bytes OK
+2026/11/26-15:58:06.045 c4f Delete type=0 #574
+2026/11/26-18:34:06.018 c91 Level-0 table #579: started
+2026/11/26-18:34:06.026 c91 Level-0 table #579: 7147 bytes OK
+2026/11/26-18:34:06.028 c91 Delete type=0 #576
+2026/11/26-22:02:38.061 c4f Level-0 table #581: started
+2026/11/26-22:02:38.068 c4f Level-0 table #581: 7372 bytes OK
+2026/11/26-22:02:38.069 c4f Delete type=0 #578
+2026/11/26-22:02:38.070 c4f Compacting 4@0 + 1@1 files
+2026/11/26-22:02:38.072 c4f Generated table #582@0: 18 keys, 10972 bytes
+2026/11/26-22:02:38.072 c4f Compacted 4@0 + 1@1 files => 10972 bytes
+2026/11/26-22:02:38.073 c4f compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/11/26-22:02:38.073 c4f Delete type=2 #577
+2026/11/26-22:02:38.073 c4f Delete type=2 #581
+2026/11/26-22:02:38.073 c4f Delete type=2 #579
+2026/11/26-22:02:38.073 c4f Delete type=2 #575
+2026/11/26-22:02:38.074 c4f Delete type=2 #573
+2026/11/27-00:38:38.043 c91 Level-0 table #584: started
+2026/11/27-00:38:38.050 c91 Level-0 table #584: 7130 bytes OK
+2026/11/27-00:38:38.052 c91 Delete type=0 #580
+2026/11/27-03:14:38.040 c91 Level-0 table #586: started
+2026/11/27-03:14:38.048 c91 Level-0 table #586: 7098 bytes OK
+2026/11/27-03:14:38.050 c91 Delete type=0 #583
